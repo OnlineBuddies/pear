@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>Modyllic</n>
+            <c>onlinebuddies.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>Schema management and DDL diff</s>
+            <d>Modyllic, PHP SQL Parser and schema management tool</d>
+            <r xlink:href="/rest/r/modyllic" />
+        </p>
 
+        <a>
+            <r>
+                <v>0.1.1</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:3:{s:4:"name";s:19:"Console_CommandLine";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.1.3";}}}</d>
+        </deps>
+
+    </pi>
 </f>

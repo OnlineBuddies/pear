@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Modyllic</name>
+ <channel>onlinebuddies.github.com/pear</channel>
+ <summary>Schema management and DDL diff</summary>
+ <description>Modyllic, PHP SQL Parser and schema management tool</description>
+ <lead>
+  <name>Online Buddies, Inc</name>
+  <user>olb</user>
+  <email>development@online-buddies.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-02-07</date>
+ <time>21:17:25</time>
+ <version>
+  <release>0.1.2</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+* Packaging updates to use our own channel and document releases
+* Class rename bug in SQL generators
+* Loader fix required for static tables, spread across multiple files
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="2450832d2b0210951fe542c560eb35de" name="Modyllic/SQL.php" role="php" />
+   <file md5sum="e6aa331ef39c7868f4acce9ffa34f05e" name="Modyllic/Commandline.php" role="php" />
+   <file md5sum="b936f1b36683a4910366e6d177535790" name="Modyllic/Diff.php" role="php" />
+   <file md5sum="e69a4d1812777cd1fde4caca37ab8c8b" name="Modyllic/Generator.php" role="php" />
+   <file md5sum="3279e2dc07d6071f560d29c9877ea208" name="Modyllic/Loader.php" role="php" />
+   <file md5sum="4a5d4a436ec7241fd0584629e430b23f" name="Modyllic/Loader/DB.php" role="php" />
+   <file md5sum="33e6032932423cec5930b954063c4f24" name="Modyllic/Loader/DB/MySQL.php" role="php" />
+   <file md5sum="cddbf9f241f22d8b02eef52a90262394" name="Modyllic/Loader/Dir.php" role="php" />
+   <file md5sum="d88888c6b064bb52e35ce2e9de164514" name="Modyllic/Loader/File.php" role="php" />
+   <file md5sum="807e4e3f02ae91f7c6d06d64c2393a14" name="Modyllic/Parser.php" role="php" />
+   <file md5sum="3e76a346b9b4ed0c13899d3fa0ae30fc" name="Modyllic/Schema.php" role="php" />
+   <file md5sum="4a59c7e9c698ad3709e5858cc6f80008" name="Modyllic/Status.php" role="php" />
+   <file md5sum="a1126381fee7b403b686f5b6d103dac8" name="Modyllic/Tokenizer.php" role="php" />
+   <file md5sum="d18811a8396c3f049a6e01c8722fe2d6" name="Modyllic/Types.php" role="php" />
+   <file md5sum="0d701d4b492b34ac98163915ffc3f9b4" name="Modyllic/Generator/NativeSQL.php" role="php" />
+   <file md5sum="7002dc268d5002dbc67b856b5cb74e65" name="Modyllic/Generator/PlainSQL.php" role="php" />
+   <file md5sum="0943f9ab973a0ef50052830a76963727" name="Modyllic/Generator/PHP.php" role="php" />
+   <file md5sum="7e2cf3b0c9b87519c5bc56fd55aae0e2" name="Modyllic/Generator/SQL.php" role="php" />
+   <file md5sum="b23e4ab40d2519705f2d99a4516a0c3e" name="Modyllic/Generator/StrictSQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="b3824631b076b1d8a5c74903781114d7" name="scripts/migrate" role="script" />
+   <file baseinstalldir="/" md5sum="798f537990e1abba3f0d05eece5108d6" name="scripts/sqlcolorize" role="script" />
+   <file baseinstalldir="/" md5sum="a0d12d6a99f6aeabef01097a99f54231" name="scripts/sqldiff" role="script" />
+   <file baseinstalldir="/" md5sum="a2c66ef25c27e9f2f3813bf635f5b8e6" name="scripts/sqldrop" role="script" />
+   <file baseinstalldir="/" md5sum="2552447f24fe527fcd01e2157ff17d39" name="scripts/sqldump" role="script" />
+   <file baseinstalldir="/" md5sum="41d1315e97776554c8e33b4308863da3" name="scripts/sqlpreparse" role="script" />
+   <file baseinstalldir="/" md5sum="c5a638345f8b7a035319fe57b01aa62b" name="scripts/sqlprofile" role="script" />
+   <file baseinstalldir="/" md5sum="be6999256949a7df365888807cb420d9" name="scripts/sqltophp" role="script" />
+   <file md5sum="93dedfd7d0782d943dfb182ea2a97bfe" name="test/General_Functional.t" role="data" />
+   <file md5sum="bca4a0c2fe03ab3fbd52e7e34e055237" name="test/SQL_Tokenizer.t" role="data" />
+   <file md5sum="da6df29d622dfbe33895334f9132d6a4" name="test/Quote.t" role="data" />
+   <file md5sum="70c17983bc431d9ca3c9b23c46ff3718" name="test/Types.t" role="data" />
+   <file md5sum="5c8b403cb632c222883787dcd336fd8e" name="testlib/README.md" role="data" />
+   <file md5sum="6fe78d6322a9247855a18595969c4a13" name="testlib/testmore.php" role="data" />
+   <file md5sum="ea37e185007a94a8190d3722c71cf660" name="testlib/test/inc_false.php" role="data" />
+   <file md5sum="00885821201ecdc2baa869280ff4db33" name="testlib/test/inc_true.php" role="data" />
+   <file md5sum="c60ced3a6d910f2908b0eed8fb6f8219" name="testlib/test/test.php" role="data" />
+   <file md5sum="f97481d8cc18abd52c45687ed40a4dba" name="DIALECT_SUPPORT.md" role="data" />
+   <file md5sum="8205b82e266c67989b00abfce1bed23f" name="HACKING.md" role="data" />
+   <file md5sum="01a0fe474ffda77ac6b96f8bca6b6515" name="LICENSE.md" role="data" />
+   <file md5sum="8e5f89eba839024bf9e0521a438dced6" name="LIMITATIONS.md" role="data" />
+   <file md5sum="e2e3a11b6dc095f591233022e65a1f3e" name="Makefile" role="data" />
+   <file md5sum="aee3eebe09b5d7db382d4423aa9fafff" name="README.md" role="doc" />
+   <file md5sum="dcd02cc4b3704d2a57171df778fc63b8" name="SCHEMA_CHANGE_EVENTS.md" role="doc" />
+   <file md5sum="5b0d1f4389d730865c73ce3269d8a56a" name="SQL_DIALECT.md" role="doc" />
+   <file md5sum="9496c1d2d0a33b91dfb0552ac8b6afac" name="SQL_EXTENSIONS.md" role="doc" />
+   <file md5sum="0621c6c8b322240ed150306aad6d96ae" name="TODO.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="migrate" name="scripts/migrate" />
+   <install as="sqlcolorize" name="scripts/sqlcolorize" />
+   <install as="sqldiff" name="scripts/sqldiff" />
+   <install as="sqldrop" name="scripts/sqldrop" />
+   <install as="sqldump" name="scripts/sqldump" />
+   <install as="sqlpreparse" name="scripts/sqlpreparse" />
+   <install as="sqlprofile" name="scripts/sqlprofile" />
+   <install as="sqltophp" name="scripts/sqltophp" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-01-10</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-02-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+...
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-02-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Packaging updates to use our own channel and document releases
+* Class rename bug in SQL generators
+* Loader fix required for static tables, spread across multiple files
+   </notes>
+  </release>
+ </changelog>
+</package>

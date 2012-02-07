@@ -36,5 +36,18 @@
 ...
  
         </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.1.0 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.1.0.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.1.0.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-02-02T20:05:37-05:00</updated>
+        <content>
+            
+Initial release.
+ 
+        </content>
     </entry>
 </feed>

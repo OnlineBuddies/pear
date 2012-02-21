@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-02-07T16:18:27-05:00</updated>
+    <updated>2012-02-21T18:46:37-05:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -34,6 +34,27 @@
         <content>
             
 ...
+ 
+        </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.2.0 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.0.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.0.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-02-21T23:45:49-05:00</updated>
+        <content>
+            
+* Added RETRY_DEADLOCKS flag-- when it's true, we will retry deadlocked queries.
+* Converted Exception to PDOException
+* Reduced and simplified warnings relating to retries.  We now log only if
+  the first reconnect fails.  Previously we retried prior to the first
+  reconnection attempt if we had previously reconnected.
+* Changed retryable exception detection to use only on the error number.
+* Correctly throw calls to invalid methods on PDO_STH
+* Allow RETRIES and RETRY_DEADLOCKS to be overridden on calls to -&gt;execute
+* Improved test suite with nearly 100% coverage
  
         </content>
     </entry>    <entry>

@@ -1,0 +1,9 @@
+#!/bin/sh
+PACKAGE=$1
+if [ ".$PACKAGE" == . ]; then
+	print "Form: release pear_package.tar.gz"
+	exit 1
+fi
+RESULT=$(basename $PACKAGE | perl -pe 's/[.]tar[.]gz/.tgz/')
+pirum . $PACKAGE
+sha256sum $PACKAGE > get/$TARBALL.sha256

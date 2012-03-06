@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-03-06T12:06:49-05:00</updated>
+    <updated>2012-03-06T16:50:17-05:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,21 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.1.4 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.4.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.4.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-03-06T21:48:13-05:00</updated>
+        <content>
+            
+* Packaging updates to use our own channel and document releases
+* Class rename bug in SQL generators
+* Loader fix required for static tables, spread across multiple files
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.1.3 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.3.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.3.tgz</id>

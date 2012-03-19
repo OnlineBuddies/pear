@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Modyllic</name>
+ <channel>onlinebuddies.github.com/pear</channel>
+ <summary>Schema management and DDL diff</summary>
+ <description>Modyllic, PHP SQL Parser and schema management tool</description>
+ <lead>
+  <name>Online Buddies, Inc</name>
+  <user>olb</user>
+  <email>development@online-buddies.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-03-19</date>
+ <time>16:47:44</time>
+ <version>
+  <release>0.1.5</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+* Add IF EXISTS to events. Fixes #93.
+* Stop using 5.3 Exception form and just rethrow non-general errors
+* RETURNS COLUMN assertions should allow empty result sets (#56)
+* Implement support for extended inserts (#88)
+* Fix missing is_primary attribute on columns
+* Improve error messages for invalid delimiters (#82)
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="2450832d2b0210951fe542c560eb35de" name="Modyllic/SQL.php" role="php" />
+   <file md5sum="94fe64aa5a46a98b835510e3b8e8b71d" name="Modyllic/Commandline.php" role="php" />
+   <file md5sum="7d76f85a29066ccf1c379322084f765f" name="Modyllic/Diff.php" role="php" />
+   <file md5sum="e69a4d1812777cd1fde4caca37ab8c8b" name="Modyllic/Generator.php" role="php" />
+   <file md5sum="1bde1db25205eea334545a2c207c13f7" name="Modyllic/Loader.php" role="php" />
+   <file md5sum="62bb8ec385e24d1b664f95173d1e1704" name="Modyllic/Loader/DB.php" role="php" />
+   <file md5sum="33e6032932423cec5930b954063c4f24" name="Modyllic/Loader/DB/MySQL.php" role="php" />
+   <file md5sum="cddbf9f241f22d8b02eef52a90262394" name="Modyllic/Loader/Dir.php" role="php" />
+   <file md5sum="d88888c6b064bb52e35ce2e9de164514" name="Modyllic/Loader/File.php" role="php" />
+   <file md5sum="5c7b9b6fe558948a3302535a51bf3e87" name="Modyllic/Parser.php" role="php" />
+   <file md5sum="539302c64445825f20cb7f4465649bcd" name="Modyllic/Schema.php" role="php" />
+   <file md5sum="17c890c0be8e54bd2bcd8dec74f201c4" name="Modyllic/Status.php" role="php" />
+   <file md5sum="2fec6d95af3eb03b7bbc4508699453cc" name="Modyllic/Tokenizer.php" role="php" />
+   <file md5sum="d18811a8396c3f049a6e01c8722fe2d6" name="Modyllic/Types.php" role="php" />
+   <file md5sum="0d701d4b492b34ac98163915ffc3f9b4" name="Modyllic/Generator/NativeSQL.php" role="php" />
+   <file md5sum="7002dc268d5002dbc67b856b5cb74e65" name="Modyllic/Generator/PlainSQL.php" role="php" />
+   <file md5sum="9c9a3de9839805b2833067bc6d8d4509" name="Modyllic/Generator/PHP.php" role="php" />
+   <file md5sum="ba667a6ba98d02790082e6d701fd814e" name="Modyllic/Generator/SQL.php" role="php" />
+   <file md5sum="b23e4ab40d2519705f2d99a4516a0c3e" name="Modyllic/Generator/StrictSQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="a52212ce2a4b9bb57923a543bbb41793" name="scripts/migrate" role="script" />
+   <file baseinstalldir="/" md5sum="798f537990e1abba3f0d05eece5108d6" name="scripts/sqlcolorize" role="script" />
+   <file baseinstalldir="/" md5sum="a0d12d6a99f6aeabef01097a99f54231" name="scripts/sqldiff" role="script" />
+   <file baseinstalldir="/" md5sum="a2c66ef25c27e9f2f3813bf635f5b8e6" name="scripts/sqldrop" role="script" />
+   <file baseinstalldir="/" md5sum="2552447f24fe527fcd01e2157ff17d39" name="scripts/sqldump" role="script" />
+   <file baseinstalldir="/" md5sum="41d1315e97776554c8e33b4308863da3" name="scripts/sqlpreparse" role="script" />
+   <file baseinstalldir="/" md5sum="c5a638345f8b7a035319fe57b01aa62b" name="scripts/sqlprofile" role="script" />
+   <file baseinstalldir="/" md5sum="be6999256949a7df365888807cb420d9" name="scripts/sqltophp" role="script" />
+   <file md5sum="e2e3a11b6dc095f591233022e65a1f3e" name="Makefile" role="test" />
+   <file md5sum="57a567e41ee95ef667b782d72e7b91b8" name="test/General_Functional.t" role="test" />
+   <file md5sum="bca4a0c2fe03ab3fbd52e7e34e055237" name="test/SQL_Tokenizer.t" role="test" />
+   <file md5sum="da6df29d622dfbe33895334f9132d6a4" name="test/Quote.t" role="test" />
+   <file md5sum="70c17983bc431d9ca3c9b23c46ff3718" name="test/Types.t" role="test" />
+   <file md5sum="e51ce7106281a72426b69ca849117872" name="test/Static_Tables.t" role="test" />
+   <file md5sum="77ce5170c50a56010a9f960b8113c618" name="test/bugs/Create_Index_Len.t" role="test" />
+   <file md5sum="5c8b403cb632c222883787dcd336fd8e" name="testlib/README.md" role="test" />
+   <file md5sum="6fe78d6322a9247855a18595969c4a13" name="testlib/testmore.php" role="test" />
+   <file md5sum="ea37e185007a94a8190d3722c71cf660" name="testlib/test/inc_false.php" role="test" />
+   <file md5sum="00885821201ecdc2baa869280ff4db33" name="testlib/test/inc_true.php" role="test" />
+   <file md5sum="c60ced3a6d910f2908b0eed8fb6f8219" name="testlib/test/test.php" role="test" />
+   <file md5sum="f97481d8cc18abd52c45687ed40a4dba" name="DIALECT_SUPPORT.md" role="doc" />
+   <file md5sum="8205b82e266c67989b00abfce1bed23f" name="HACKING.md" role="doc" />
+   <file md5sum="01a0fe474ffda77ac6b96f8bca6b6515" name="LICENSE.md" role="doc" />
+   <file md5sum="8e5f89eba839024bf9e0521a438dced6" name="LIMITATIONS.md" role="doc" />
+   <file md5sum="aee3eebe09b5d7db382d4423aa9fafff" name="README.md" role="doc" />
+   <file md5sum="dcd02cc4b3704d2a57171df778fc63b8" name="SCHEMA_CHANGE_EVENTS.md" role="doc" />
+   <file md5sum="5b0d1f4389d730865c73ce3269d8a56a" name="SQL_DIALECT.md" role="doc" />
+   <file md5sum="9496c1d2d0a33b91dfb0552ac8b6afac" name="SQL_EXTENSIONS.md" role="doc" />
+   <file md5sum="bf07e6b32baf7edd05c7aea6252d1881" name="TODO.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="migrate" name="scripts/migrate" />
+   <install as="sqlcolorize" name="scripts/sqlcolorize" />
+   <install as="sqldiff" name="scripts/sqldiff" />
+   <install as="sqldrop" name="scripts/sqldrop" />
+   <install as="sqldump" name="scripts/sqldump" />
+   <install as="sqlpreparse" name="scripts/sqlpreparse" />
+   <install as="sqlprofile" name="scripts/sqlprofile" />
+   <install as="sqltophp" name="scripts/sqltophp" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-01-10</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-02-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+...
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-02-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Packaging updates to use our own channel and document releases
+* Class rename bug in SQL generators
+* Loader fix required for static tables, spread across multiple files
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.3</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-02-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Remove unused method Modyllic_Loader::from_db
+* Correct DSN loading to allow equals signs in values.
+* URL decode DSN values prior to using them.
+* Change terminal detection to only run tput if it can plausibly work.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.4</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-03-06</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add a debug flag to aid in debugging parser errors
+* Remove verbose output from debugging
+* Fix innumerable problems with migrate since the commandline refactor
+* Allow colons or semicolons in dsns, to make command lines less painful
+* Fix bug where the database name wasn&apos;t being emitted in some circumstances
+* SQLMETA updates were bogus, changed to just delete and insert. 
+* The static property on tables wasn&apos;t being emitted correctly.
+* Fix bugs in primary key handling caused by support for key lengths
+* Fix bug in how dynamically named indexes were emitted. Now use the name for the purposes of diffs but don&apos;t emit it
+* Fix the file roles
+   </notes>
+  </release>
+  <release>
+   <version>0.1.5</version>
+   <api>0.1.0</api>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-03-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add IF EXISTS to events. Fixes #93.
+* Stop using 5.3 Exception form and just rethrow non-general errors
+* RETURNS COLUMN assertions should allow empty result sets (#56)
+* Implement support for extended inserts (#88)
+* Fix missing is_primary attribute on columns
+* Improve error messages for invalid delimiters (#82)
+   </notes>
+  </release>
+ </changelog>
+</package>

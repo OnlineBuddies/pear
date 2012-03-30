@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.com/pear</c>
+    <v>0.1.6</v>
+    <a>0.1.0</a>
+    <mp>5.2</mp>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2012-03-30 20:29:41</da>
+    <n>
+* Stop Modyllic_Parser::partial from having a return value
+* Complain if no toschema is provided to sqldiff
+* Fix a --progress divide by zero when the source file was empty
+* Fix bug where a DROP DATABASE would ignore any following CREATEs
+* Make the SQL generator able to only output specific kinds of data
+* Boolean types were being treated as exactly equivalent to TINYINT and this isn't actually the case
+* displayError should really be a static function
+* Fix migration --create option
+* Fix bugs around when SQLMETA is created
+* Add support for MySQL Triggers
+* Fix view changeset handling
+ </n>
+    <f>74071</f>
+    <g>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.6</g>
+    <x xlink:href="package.0.1.6.xml"/>
+</r>

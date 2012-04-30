@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-04-13T16:55:43-04:00</updated>
+    <updated>2012-04-30T14:04:52-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -151,6 +151,19 @@
             <name>olb</name>
         </author>
         <updated>2012-02-02T20:05:37-05:00</updated>
+        <content>
+            
+Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>PEAR_PackageFileManager_Gitrepoonly 1.0.0 (stable)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz</id>
+        <author>
+            <name>becca</name>
+        </author>
+        <updated>2012-04-30T18:04:10-04:00</updated>
         <content>
             
 Initial release.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>PEAR_PackageFileManager_Gitrepoonly</n>
+<c>onlinebuddies.github.com/pear</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD Style</l>
+<s>A Git repository-only list plugin generator for both
+PEAR_PackageFileManager, and PEAR_PackageFileManager2 classes.</s>
+<d>It will only include files that are part of the git index-- that is, files
+in the current branch plus files staged for commit.  It simply uses 
+`git ls-files` to get a list of files to package.  If you just want
+files excluded that are in .gitignore or .git/info/exclude, see 
+https://github.com/armen/PEAR_PackageFileManager_Git</d>
+<r xlink:href="/rest/r/pear_packagefilemanager_gitrepoonly" />
+</p>

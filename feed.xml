@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-04-30T14:04:52-04:00</updated>
+    <updated>2012-04-30T17:44:34-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,30 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.0 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.0.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.0.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-04-30T21:43:09-04:00</updated>
+        <content>
+            
+* Rework our package build process to be more palatable
+* Rename schema classes to be Modyllic_Schema_*
+* Move more documentation into the wiki and update the publishing document (Aria Stewart)
+* Rename SQL generator dialects to be more useful
+* Rename Modyllic_Commandline-&gt;Modyllic_CommandLine to match Console_CommandLine
+* Add support for --version to all of the commandline tools
+* Remove unused sqlmeta_exists from changeset support
+* Remove now unused schema level sqlmeta tracking
+* #103 Converting from static to non-static no longer results in deleted rows
+* Fix strict error-- array_shift must take a variable as an argument
+* #85 Recursive scan directories for .sql files
+* Fix #110 - In sqlcolorize, on exit reset colors rather then explicitly setting white
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.1.7 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.7.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.7.tgz</id>

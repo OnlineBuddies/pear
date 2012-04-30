@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Modyllic</name>
+ <channel>onlinebuddies.github.com/pear</channel>
+ <summary>Schema management and DDL diff</summary>
+ <description>Modyllic, PHP SQL Parser and schema management tool</description>
+ <lead>
+  <name>Online Buddies, Inc</name>
+  <user>olb</user>
+  <email>development@online-buddies.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-30</date>
+ <time>21:43:09</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+* Rework our package build process to be more palatable
+* Rename schema classes to be Modyllic_Schema_*
+* Move more documentation into the wiki and update the publishing document (Aria Stewart)
+* Rename SQL generator dialects to be more useful
+* Rename Modyllic_Commandline-&gt;Modyllic_CommandLine to match Console_CommandLine
+* Add support for --version to all of the commandline tools
+* Remove unused sqlmeta_exists from changeset support
+* Remove now unused schema level sqlmeta tracking
+* #103 Converting from static to non-static no longer results in deleted rows
+* Fix strict error-- array_shift must take a variable as an argument
+* #85 Recursive scan directories for .sql files
+* Fix #110 - In sqlcolorize, on exit reset colors rather then explicitly setting white
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="33458881fd50ed6ca10bff844ac7d3dc" name="doc/Dialect-Refactor.md" role="doc" />
+   <file baseinstalldir="/" md5sum="5b0d1f4389d730865c73ce3269d8a56a" name="doc/Dialect.md" role="doc" />
+   <file baseinstalldir="/" md5sum="aa93c4ad34b2e4acdee95d9ee75d882e" name="doc/Extensions.md" role="doc" />
+   <file baseinstalldir="/" md5sum="8205b82e266c67989b00abfce1bed23f" name="doc/Hacking.md" role="doc" />
+   <file baseinstalldir="/" md5sum="9e38aca70fdb073a6b3de22b8fd1c308" name="doc/Home.md" role="doc" />
+   <file baseinstalldir="/" md5sum="3dbe2cedb27c9f6c5af2d6f6ab42704a" name="doc/Limitations.md" role="doc" />
+   <file baseinstalldir="/" md5sum="c6b3c53ca2e5bb22d36cd1432ddde674" name="doc/migrate.md" role="doc" />
+   <file baseinstalldir="/" md5sum="ddba4e1d6206cf3f5e8b00a674ed303f" name="doc/Parser-Refactor.md" role="doc" />
+   <file baseinstalldir="/" md5sum="f6bd9038e2cf4baf17de30c372c99855" name="doc/Prior-Art.md" role="doc" />
+   <file baseinstalldir="/" md5sum="4c3d04507c56ac71a302e6789c25c7f6" name="doc/Publishing.md" role="doc" />
+   <file baseinstalldir="/" md5sum="dcd02cc4b3704d2a57171df778fc63b8" name="doc/Schema-Change-Events.md" role="doc" />
+   <file baseinstalldir="/" md5sum="9180a7b8c2fd5c65650f8140727bf2e4" name="doc/schemas.md" role="doc" />
+   <file baseinstalldir="/" md5sum="28cbb6d5eafee1e6fd82347bac4f1ee1" name="doc/sqlcolorize.md" role="doc" />
+   <file baseinstalldir="/" md5sum="bae042b86cb22db69ee84076c383b7a8" name="doc/sqldiff.md" role="doc" />
+   <file baseinstalldir="/" md5sum="57c216d2f6519bdbad03d6b9891af341" name="doc/sqldrop.md" role="doc" />
+   <file baseinstalldir="/" md5sum="6a4b7debf00c472c35542ebe63f76d4d" name="doc/sqldump.md" role="doc" />
+   <file baseinstalldir="/" md5sum="4ba16d092c212eb39b8cc9590cf03922" name="doc/sqlpreparse.md" role="doc" />
+   <file baseinstalldir="/" md5sum="2c44b2c97760bc5c4812bac07a6f582e" name="doc/sqltophp.md" role="doc" />
+   <file baseinstalldir="/" md5sum="78539d7a1b36800a7884261c17ffea4e" name="Modyllic/Generator/AssertMySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="440f35b52787f222f0ebbfa131b1d1ef" name="Modyllic/Generator/ModyllicSQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="23e0e4a44fa585e701a5cbf2fd054662" name="Modyllic/Generator/MySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="b125919e49c50a3a265dc2360dcf58d0" name="Modyllic/Generator/PHP.php" role="php" />
+   <file baseinstalldir="/" md5sum="107e0e314488553825c7bef7a6fe1af5" name="Modyllic/Generator/StrippedMySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="9d2d7c04e6a96c01eab5f88c0304f961" name="Modyllic/Loader/DB/MySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="343c54dded55d11e8fb9826d218f1249" name="Modyllic/Loader/DB.php" role="php" />
+   <file baseinstalldir="/" md5sum="e0f125990cbe72e7b6bd606a050e3773" name="Modyllic/Loader/Dir.php" role="php" />
+   <file baseinstalldir="/" md5sum="d0d50a5f412c2508452d970e58303f21" name="Modyllic/Loader/File.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6614482b9c60e8220fef9a4670e235a" name="Modyllic/Schema/Index/Foreign.php" role="php" />
+   <file baseinstalldir="/" md5sum="24320e805fa4c06f9d8b1d9cbe26962a" name="Modyllic/Schema/Arg.php" role="php" />
+   <file baseinstalldir="/" md5sum="27a1dff1822ed4d05bd53b5fe2e2af15" name="Modyllic/Schema/CodeBody.php" role="php" />
+   <file baseinstalldir="/" md5sum="3ff48346404b1f8596fe0e490cbe895e" name="Modyllic/Schema/Column.php" role="php" />
+   <file baseinstalldir="/" md5sum="29700e435bc130954bbda562a6aa896e" name="Modyllic/Schema/Event.php" role="php" />
+   <file baseinstalldir="/" md5sum="e733b8fa9595f6dff4097e970831839c" name="Modyllic/Schema/Func.php" role="php" />
+   <file baseinstalldir="/" md5sum="9bd332151e4e1d2877d126bdd62031a3" name="Modyllic/Schema/Index.php" role="php" />
+   <file baseinstalldir="/" md5sum="1a7eae7eb508c74ea9c3cc33d8e9d34a" name="Modyllic/Schema/Proc.php" role="php" />
+   <file baseinstalldir="/" md5sum="147cb867cb760858b0e6433cd17ba6a6" name="Modyllic/Schema/Routine.php" role="php" />
+   <file baseinstalldir="/" md5sum="781ebbf6823fcde14aa95add54c941f1" name="Modyllic/Schema/Table.php" role="php" />
+   <file baseinstalldir="/" md5sum="1df9a610e0cb24b33fd01437975f490a" name="Modyllic/Schema/Trigger.php" role="php" />
+   <file baseinstalldir="/" md5sum="6b6eb9ab2209fd1e003afee13cd38ca0" name="Modyllic/Schema/View.php" role="php" />
+   <file baseinstalldir="/" md5sum="d4d3e88dda668106f1162ea4bd2a4618" name="Modyllic/CommandLine.php" role="php">
+    <tasks:replace from="@VERSION@" to="version" type="package-info" />
+    <tasks:replace from="@STATE@" to="state" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="71aa0ef13d5a3362faa44034f794128b" name="Modyllic/Diff.php" role="php" />
+   <file baseinstalldir="/" md5sum="87a209b6598fb6aaea84e76abe4eec07" name="Modyllic/Generator.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc83f2682da988872b1ae1ade6270d9e" name="Modyllic/Loader.php" role="php" />
+   <file baseinstalldir="/" md5sum="b75cc93ae9c57f4d53113870ec3c43d4" name="Modyllic/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="ccc8400e5ecb08364bc68cc2650dc349" name="Modyllic/Schema.php" role="php" />
+   <file baseinstalldir="/" md5sum="d602e750410a9a1399de92596b01d6e8" name="Modyllic/SQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="35140e6fb214b85cae20099dc26bd44e" name="Modyllic/Status.php" role="php" />
+   <file baseinstalldir="/" md5sum="c381f9770b0d7c3fdb19db83cb6e0510" name="Modyllic/Tokenizer.php" role="php" />
+   <file baseinstalldir="/" md5sum="03ddf2985edede20f52c4e99d29d108f" name="Modyllic/Types.php" role="php" />
+   <file baseinstalldir="/" md5sum="6e129e752ca3d4d49867f720d63c1341" name="scripts/migrate" role="script" />
+   <file baseinstalldir="/" md5sum="f6c5ae1dc3d02e051cbb763130384060" name="scripts/sqlcolorize" role="script" />
+   <file baseinstalldir="/" md5sum="c34dbb202ccef2c36e5aba6f857ab848" name="scripts/sqldiff" role="script" />
+   <file baseinstalldir="/" md5sum="816afbf5d61f4fa828a5fcbf57927408" name="scripts/sqldrop" role="script" />
+   <file baseinstalldir="/" md5sum="de84536924e5ebe9eef257ee7e143bde" name="scripts/sqldump" role="script" />
+   <file baseinstalldir="/" md5sum="841b1a06d2e471e01939bb675e4e7444" name="scripts/sqlpreparse" role="script" />
+   <file baseinstalldir="/" md5sum="edb7c6dd3940cd6852ce8a34b76fd32d" name="scripts/sqlprofile" role="script" />
+   <file baseinstalldir="/" md5sum="65a26e68f00865e9dca64331c0920b7d" name="scripts/sqltophp" role="script" />
+   <file baseinstalldir="/" md5sum="886f5caac1efa7dd2bf9da9500caff8f" name="test/bugs/Create_Index_Len.t" role="test" />
+   <file baseinstalldir="/" md5sum="d626a0bb48e32c3acc26fbace000bebc" name="test/diff/Triggers.t" role="test" />
+   <file baseinstalldir="/" md5sum="ba53d0f72e47c5ac8ed2a1dda78fe517" name="test/generator/Triggers.t" role="test" />
+   <file baseinstalldir="/" md5sum="62b0a3a6e2a70b7cd4d4717bae6d7474" name="test/parser/Triggers.t" role="test" />
+   <file baseinstalldir="/" md5sum="dadce90645c47469212b241dcdc572bc" name="test/General_Functional.t" role="test" />
+   <file baseinstalldir="/" md5sum="da6df29d622dfbe33895334f9132d6a4" name="test/Quote.t" role="test" />
+   <file baseinstalldir="/" md5sum="923b9515fc5726ecfff9828c2e32232e" name="test/SQL_Tokenizer.t" role="test" />
+   <file baseinstalldir="/" md5sum="e51ce7106281a72426b69ca849117872" name="test/Static_Tables.t" role="test" />
+   <file baseinstalldir="/" md5sum="c7c3099a025cab2bdb6aeda45a2e477d" name="test/TODO.md" role="doc" />
+   <file baseinstalldir="/" md5sum="5120b67416cc7ba01517a3bddeb1b505" name="test/Types.t" role="test" />
+   <file baseinstalldir="/" md5sum="ea37e185007a94a8190d3722c71cf660" name="testlib/test/inc_false.php" role="test" />
+   <file baseinstalldir="/" md5sum="00885821201ecdc2baa869280ff4db33" name="testlib/test/inc_true.php" role="test" />
+   <file baseinstalldir="/" md5sum="9b731d53f7feed2dece09e549e2e84b9" name="testlib/test/test.php" role="test" />
+   <file baseinstalldir="/" md5sum="70cff6c8f6d90b5ff998a825388b5437" name="testlib/README.md" role="test" />
+   <file baseinstalldir="/" md5sum="dbddd597832ddd8095ac39f3cac901bd" name="testlib/testmore.php" role="test" />
+   <file baseinstalldir="/" md5sum="d3eae37ba036c30e83ca41530dc2b240" name="base.xml" role="data" />
+   <file baseinstalldir="/" md5sum="01a0fe474ffda77ac6b96f8bca6b6515" name="LICENSE.md" role="doc" />
+   <file baseinstalldir="/" md5sum="bb46c055dbeeda7b366f9dd571693584" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="Dialect-Refactor.md" name="doc/Dialect-Refactor.md" />
+   <install as="Dialect.md" name="doc/Dialect.md" />
+   <install as="Extensions.md" name="doc/Extensions.md" />
+   <install as="Hacking.md" name="doc/Hacking.md" />
+   <install as="Home.md" name="doc/Home.md" />
+   <install as="Limitations.md" name="doc/Limitations.md" />
+   <install as="migrate.md" name="doc/migrate.md" />
+   <install as="Parser-Refactor.md" name="doc/Parser-Refactor.md" />
+   <install as="Prior-Art.md" name="doc/Prior-Art.md" />
+   <install as="Publishing.md" name="doc/Publishing.md" />
+   <install as="Schema-Change-Events.md" name="doc/Schema-Change-Events.md" />
+   <install as="schemas.md" name="doc/schemas.md" />
+   <install as="sqlcolorize.md" name="doc/sqlcolorize.md" />
+   <install as="sqldiff.md" name="doc/sqldiff.md" />
+   <install as="sqldrop.md" name="doc/sqldrop.md" />
+   <install as="sqldump.md" name="doc/sqldump.md" />
+   <install as="sqlpreparse.md" name="doc/sqlpreparse.md" />
+   <install as="sqltophp.md" name="doc/sqltophp.md" />
+   <install as="migrate" name="scripts/migrate" />
+   <install as="sqlcolorize" name="scripts/sqlcolorize" />
+   <install as="sqldiff" name="scripts/sqldiff" />
+   <install as="sqldrop" name="scripts/sqldrop" />
+   <install as="sqldump" name="scripts/sqldump" />
+   <install as="sqlpreparse" name="scripts/sqlpreparse" />
+   <install as="sqlprofile" name="scripts/sqlprofile" />
+   <install as="sqltophp" name="scripts/sqltophp" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-01-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-01-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-02-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.3</release>
+    <api>0.1.3</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-03-06</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.4</release>
+    <api>0.1.4</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-03-06</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.5</release>
+    <api>0.1.5</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-03-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.6</release>
+    <api>0.1.6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-03-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.7</release>
+    <api>0.1.7</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Rework our package build process to be more palatable
+* Rename schema classes to be Modyllic_Schema_*
+* Move more documentation into the wiki and update the publishing document (Aria Stewart)
+* Rename SQL generator dialects to be more useful
+* Rename Modyllic_Commandline-&gt;Modyllic_CommandLine to match Console_CommandLine
+* Add support for --version to all of the commandline tools
+* Remove unused sqlmeta_exists from changeset support
+* Remove now unused schema level sqlmeta tracking
+* #103 Converting from static to non-static no longer results in deleted rows
+* Fix strict error-- array_shift must take a variable as an argument
+* #85 Recursive scan directories for .sql files
+* Fix #110 - In sqlcolorize, on exit reset colors rather then explicitly setting white
+   </notes>
+  </release>
+ </changelog>
+</package>

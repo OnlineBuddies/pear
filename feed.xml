@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-05-17T16:11:30-04:00</updated>
+    <updated>2012-07-30T12:32:03-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,29 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.3 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.3.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.3.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-07-30T16:29:29-04:00</updated>
+        <content>
+            
+* Fully automate the release process
+* Move the tokenizer unit test into the unit tests directory
+* Fix formatting of routine_args_type
+* Fix formatting of proc_return_type and routine_args_type docs
+* Give modyllic a single commandline interface
+* Comments in tables can now attach to columns and the table
+* Make tokens stringify to their debug representation and take advantage
+* Fix normalization for dates and years the way we did for nums
+* Fix #172 Non-token numification always set the value to 0
+* Fix bug where data updates would get lost if a tables static status did not change
+* Add coverage tools, a bunch of new unit tests, organize tests better.
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.2 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.2.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.2.tgz</id>

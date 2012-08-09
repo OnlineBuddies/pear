@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-07-30T12:32:03-04:00</updated>
+    <updated>2012-08-09T17:34:26-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,25 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.4 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.4.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.4.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-08-09T21:34:24-04:00</updated>
+        <content>
+            
+* Only wrap general errors for procs that we fetch the results on
+* Fix colorize to make it handle commandline arguments in a standard way--
+  the move to a unified modyllic commandline had broken it.
+* Add an exception-&gt;error handler and made using the CommandLine class load
+  it and the autoloader
+* Fix case undefined indexes involving aliases (#186)
+* Make boolean (and serial) persistent metadata in MySQL
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.3 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.3.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.3.tgz</id>

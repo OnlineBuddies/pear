@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.com/pear</c>
+    <v>0.2.4</v>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2012-08-09 21:34:24</da>
+    <n>
+* Only wrap general errors for procs that we fetch the results on
+* Fix colorize to make it handle commandline arguments in a standard way--
+  the move to a unified modyllic commandline had broken it.
+* Add an exception-&gt;error handler and made using the CommandLine class load
+  it and the autoloader
+* Fix case undefined indexes involving aliases (#186)
+* Make boolean (and serial) persistent metadata in MySQL
+ </n>
+    <f>96220</f>
+    <g>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.4</g>
+    <x xlink:href="package.0.2.4.xml"/>
+</r>

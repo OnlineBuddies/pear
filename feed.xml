@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-08-09T17:34:26-04:00</updated>
+    <updated>2012-08-13T19:15:52-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -225,6 +225,22 @@
         <content>
             
 ...
+ 
+        </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.2.1 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.1.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.1.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-08-13T23:11:53-04:00</updated>
+        <content>
+            
+* Add support for a special kind of exceptions, any that implement the
+  OLB_PDOCommitTransaction interface, that when thrown will not trigger a
+  rollback during an execTransaction block.
+* Fix resetting of the singleton flag after various exception handling.
  
         </content>
     </entry>    <entry>

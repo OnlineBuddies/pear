@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-08-13T19:15:52-04:00</updated>
+    <updated>2012-08-14T19:36:48-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -225,6 +225,19 @@
         <content>
             
 ...
+ 
+        </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.2.2 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.2.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.2.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-08-14T23:36:01-04:00</updated>
+        <content>
+            
+* Fix permissions.
  
         </content>
     </entry>    <entry>

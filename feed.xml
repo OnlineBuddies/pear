@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-09-04T10:37:41-04:00</updated>
+    <updated>2012-09-17T21:50:59-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -225,6 +225,20 @@
         <content>
             
 ...
+ 
+        </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.2.4 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.4.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.4.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-09-18T01:50:14-04:00</updated>
+        <content>
+            
+* Fix logging on execute retries
+* Add ability to sleep only after n retries
  
         </content>
     </entry>    <entry>

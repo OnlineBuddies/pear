@@ -6,4 +6,4 @@ if [ ".$PACKAGE" == . ]; then
 fi
 RESULT=$(basename $PACKAGE | perl -pe 's/[.]tar[.]gz/.tgz/')
 pirum add . $PACKAGE
-sha256sum $PACKAGE > get/$RESULT.sha256
+openssl dgst -sha256 $PACKAGE > get/$RESULT.sha256

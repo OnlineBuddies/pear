@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-09-27T18:51:07-04:00</updated>
+    <updated>2012-10-12T15:15:21-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,34 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.9 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.9.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.9.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-10-12T19:08:25-04:00</updated>
+        <content>
+            
+Changes:
+
+* Make the build fail if pirum can't actually be run 
+* Add geometric types 
+* Add more build requirements 
+* Refactor metadata into a normal static table 
+* Rename SQLMETA to MODYLLIC 
+* Switch to creating the SQLMETA table via a schema object rather then by hand 
+* Fix database creation during migration 
+* Set indexes associated with primary key columns as column defined, which saves us from having to have a special case is_primary check later on. 
+* Make it easy to override the fetch type 
+
+Fixes:
+
+* Fix #191 -- Emit BIGINTs for SERIAL columns 
+* Fix #207: metatable generation during migrates
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.8 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.8.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.8.tgz</id>

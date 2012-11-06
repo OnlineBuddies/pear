@@ -1,0 +1,714 @@
+{
+    "pear-OnlineBuddies\/Modyllic": {
+        "versions": {
+            "0.2.9": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.9.tgz"
+                },
+                "version": "0.2.9",
+                "time": "2012-10-12T19:08:25-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
+            "0.2.8": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.8.tgz"
+                },
+                "version": "0.2.8",
+                "time": "2012-09-27T22:51:04-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
+            "0.2.7": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.7.tgz"
+                },
+                "version": "0.2.7",
+                "time": "2012-09-27T22:44:36-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
+            "0.2.6": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.6.tgz"
+                },
+                "version": "0.2.6",
+                "time": "2012-09-20T19:35:16-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
+            "0.2.5": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.5.tgz"
+                },
+                "version": "0.2.5",
+                "time": "2012-09-19T15:49:31-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
+            "0.2.4": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.4.tgz"
+                },
+                "version": "0.2.4",
+                "time": "2012-08-09T21:34:24-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
+            "0.2.3": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.3.tgz"
+                },
+                "version": "0.2.3",
+                "time": "2012-07-30T16:29:29-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic",
+                        "91": "test\/unit\/AutoLoader\/Example.php",
+                        "92": "test\/test_environment.php"
+                    }
+                }
+            },
+            "0.2.2": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.2.tgz"
+                },
+                "version": "0.2.2",
+                "time": "2012-05-17T19:49:27-04:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic",
+                        "91": "test\/test_environment.php"
+                    }
+                }
+            },
+            "0.2.1": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.1.tgz"
+                },
+                "version": "0.2.1",
+                "time": "2012-05-08T18:53:42-04:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic",
+                        "87": "test\/test_environment.php"
+                    }
+                }
+            },
+            "0.2.0": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-04-30T21:43:09-04:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.7": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.7.tgz"
+                },
+                "version": "0.1.7",
+                "time": "2012-04-13T20:55:07-04:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.6": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.6.tgz"
+                },
+                "version": "0.1.6",
+                "time": "2012-03-30T20:29:41-04:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.5": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.5.tgz"
+                },
+                "version": "0.1.5",
+                "time": "2012-03-19T16:47:44-04:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.4": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.4.tgz"
+                },
+                "version": "0.1.4",
+                "time": "2012-03-06T21:48:13-05:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.3": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.3.tgz"
+                },
+                "version": "0.1.3",
+                "time": "2012-03-06T17:05:41-05:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.2": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.2.tgz"
+                },
+                "version": "0.1.2",
+                "time": "2012-02-07T21:17:25-05:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            },
+            "0.1.1": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.1.1.tgz"
+                },
+                "version": "0.1.1",
+                "time": "2012-02-02T19:26:14-05:00",
+                "require": {
+                    "php": ">=5.2",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Modyllic"
+                    ]
+                }
+            }
+        },
+        "name": "pear-OnlineBuddies\/Modyllic",
+        "description": "Schema management and DDL diff",
+        "maintainers": [
+            {
+                "name": "Online Buddies, Inc",
+                "email": "development@online-buddies.com",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-OnlineBuddies\/OLB_PDO": {
+        "versions": {
+            "0.2.6": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.6.tgz"
+                },
+                "version": "0.2.6",
+                "time": "2012-11-06T16:24:14-05:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
+            "0.2.5": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.5.tgz"
+                },
+                "version": "0.2.5",
+                "time": "2012-09-18T02:42:53-04:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
+            "0.2.4": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.4.tgz"
+                },
+                "version": "0.2.4",
+                "time": "2012-09-18T01:50:14-04:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
+            "0.2.3": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.3.tgz"
+                },
+                "version": "0.2.3",
+                "time": "2012-09-04T14:35:47-04:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
+            "0.2.2": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.2.tgz"
+                },
+                "version": "0.2.2",
+                "time": "2012-08-14T23:36:01-04:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
+            "0.2.1": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.1.tgz"
+                },
+                "version": "0.2.1",
+                "time": "2012-08-13T23:11:53-04:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
+            "0.2.0": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-02-21T23:45:49-05:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB\/PDO.php",
+                        "OLB\/PDO\/STH.php"
+                    ]
+                }
+            },
+            "0.1.0": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2012-02-02T20:05:37-05:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB\/PDO.php",
+                        "OLB\/PDO\/STH.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-OnlineBuddies\/OLB_PDO",
+        "description": "Singletons, retries and transactions, oh my",
+        "maintainers": [
+            {
+                "name": "Online Buddies, Inc",
+                "email": "development@online-buddies.com",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-OnlineBuddies\/PEAR_PackageFileManager_Gitrepoonly": {
+        "versions": {
+            "1.0.0": {
+                "name": "pear-OnlineBuddies\/PEAR_PackageFileManager_Gitrepoonly",
+                "description": "A Git repository-only list plugin generator for both\nPEAR_PackageFileManager, and PEAR_PackageFileManager2 classes.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz"
+                },
+                "version": "1.0.0",
+                "time": "2012-04-30T18:04:10-04:00",
+                "require": {
+                    "php": ">=5"
+                },
+                "authors": [
+                    {
+                        "name": "Rebecca Turner",
+                        "email": "becca@referencethis.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PEAR\/PackageFileManager\/Gitrepoonly.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-OnlineBuddies\/PEAR_PackageFileManager_Gitrepoonly",
+        "description": "A Git repository-only list plugin generator for both\nPEAR_PackageFileManager, and PEAR_PackageFileManager2 classes.",
+        "maintainers": [
+            {
+                "name": "Rebecca Turner",
+                "email": "becca@referencethis.com",
+                "homepage": ""
+            }
+        ]
+    }
+}

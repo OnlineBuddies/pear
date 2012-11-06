@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-10-12T15:15:21-04:00</updated>
+    <updated>2012-11-06T11:24:45-05:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -314,6 +314,19 @@ Fixes:
         <content>
             
 ...
+ 
+        </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.2.6 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.6.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.6.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-11-06T16:24:14-05:00</updated>
+        <content>
+            
+* Disconnect on rollback failures
  
         </content>
     </entry>    <entry>

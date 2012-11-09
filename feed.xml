@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2012-11-06T11:24:45-05:00</updated>
+    <updated>2012-11-09T18:38:58-05:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,33 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.10 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.10.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.10.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2012-11-09T23:38:56-05:00</updated>
+        <content>
+            
+Changes:
+
+* Warn rather then crash if a database doesn't exist
+* Clear progress bars in verbose mode only
+* Stop magicing separate primary key delcarations into column-wise ones
+* Suppress warnings on 5.4 due to PEAR maintained modules
+
+Bug fixes:
+
+* Fix bug in determining differences
+* Fix migration from SQLMETA to MODYLLIC
+* Fix 5.2 compatibility issues
+* Fix 'HASH' type reserved word
+* Fix #218- Cleans up metadata table handling.
+* Fix column returns on empty sets, for real (#56)
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.9 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.9.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.9.tgz</id>

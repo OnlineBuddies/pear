@@ -538,6 +538,31 @@
     },
     "pear-OnlineBuddies\/OLB_PDO": {
         "versions": {
+            "0.2.8": {
+                "name": "pear-OnlineBuddies\/OLB_PDO",
+                "description": "Singletons, retries and transactions, oh my",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/OLB_PDO-0.2.8.tgz"
+                },
+                "version": "0.2.8",
+                "time": "2013-05-20T17:51:41-04:00",
+                "require": {
+                    "php": ">=5.2"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "OLB"
+                    ]
+                }
+            },
             "0.2.7": {
                 "name": "pear-OnlineBuddies\/OLB_PDO",
                 "description": "Singletons, retries and transactions, oh my",

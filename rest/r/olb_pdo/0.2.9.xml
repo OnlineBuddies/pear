@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/olb_pdo">OLB_PDO</p>
+    <c>onlinebuddies.github.com/pear</c>
+    <v>0.2.9</v>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Singletons, retries and transactions, oh my</s>
+    <d>A simple PDO wrapper that adds singletons, retries and improved transaction support.</d>
+    <da>2013-05-20 18:33:42</da>
+    <n>
+* Add OLB/PDORetryTransaction.php to the build
+ </n>
+    <f>27639</f>
+    <g>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.9</g>
+    <x xlink:href="package.0.2.9.xml"/>
+</r>

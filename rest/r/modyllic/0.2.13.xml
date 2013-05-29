@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.com/pear</c>
+    <v>0.2.13</v>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2013-05-29 18:02:37</da>
+    <n>
+* Remove deprecated commandline scripts (Rebecca Turner)
+* Add new Modyllic command for applying previously generated diffs to a database (Rebecca Turner)
+* Support schema prefixed view names (Rebecca Turner)
+* Add support for views/events/triggers to the MySQL loader (Rebecca Turner)
+* Add support for the mysql ROW_FORMAT table option (Aria Stewart)
+* Fix PHP5.3ism (Rebecca Turner)
+* Substantially improve delimiter related error handling (Rebecca Turner)
+* Make syntax errors consume a single character as an error token (Rebecca Turner)
+* Improve colors used to highlight errors (Rebecca Turner)
+* Fix commandline summary (Rebecca Turner)
+* Improve the 'no MODYLLIC table' situation.  Works with DBs now, but still not dumps that lack it. (Rebecca Turner)
+* Fix #192: Adding multiple columns resulted in invalid AFTER clauses (Rebecca Turner)
+ </n>
+    <f>95265</f>
+    <g>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.13</g>
+    <x xlink:href="package.0.2.13.xml"/>
+</r>

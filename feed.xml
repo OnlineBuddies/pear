@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2013-05-20T14:33:58-04:00</updated>
+    <updated>2013-05-29T14:02:42-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,31 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.13 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.13.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.13.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2013-05-29T18:02:37-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Remove deprecated commandline scripts (Rebecca Turner)
+* Add new Modyllic command for applying previously generated diffs to a database (Rebecca Turner)
+* Support schema prefixed view names (Rebecca Turner)
+* Add support for views/events/triggers to the MySQL loader (Rebecca Turner)
+* Add support for the mysql ROW_FORMAT table option (Aria Stewart)
+* Fix PHP5.3ism (Rebecca Turner)
+* Substantially improve delimiter related error handling (Rebecca Turner)
+* Make syntax errors consume a single character as an error token (Rebecca Turner)
+* Improve colors used to highlight errors (Rebecca Turner)
+* Fix commandline summary (Rebecca Turner)
+* Improve the 'no MODYLLIC table' situation.  Works with DBs now, but still not dumps that lack it. (Rebecca Turner)
+* Fix #192: Adding multiple columns resulted in invalid AFTER clauses (Rebecca Turner)
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.12 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.12.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.12.tgz</id>
@@ -17,6 +42,7 @@
         </author>
         <updated>2012-11-19T23:44:52-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 Bug fixes:
 
@@ -34,6 +60,7 @@ Bug fixes:
         </author>
         <updated>2012-11-09T23:51:28-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Fix warning in some 5.3/5.4 configurations
  
@@ -47,6 +74,7 @@ Bug fixes:
         </author>
         <updated>2012-11-09T23:38:56-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 Changes:
 
@@ -74,6 +102,7 @@ Bug fixes:
         </author>
         <updated>2012-10-12T19:08:25-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 Changes:
 
@@ -102,6 +131,7 @@ Fixes:
         </author>
         <updated>2012-09-27T22:51:04-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Add support for extending your PHP include path for Modyllic's commandline
   tools with the MODYLLIC_LIB_PATH environment variable.
@@ -116,6 +146,7 @@ Fixes:
         </author>
         <updated>2012-09-27T22:44:36-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Add deprecation warnings for `migrate`, `sqlcolorize`, `sqldiff`, `sqldrop`,
   `sqldump`, `sqlpreparse`, `sqlprofile`, `sqltophp`.  Use the `modyllic` command
@@ -133,6 +164,7 @@ Fixes:
         </author>
         <updated>2012-09-20T19:35:16-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Fix bug: We remove metadata with delete_meta not drop_meta
  
@@ -146,6 +178,7 @@ Fixes:
         </author>
         <updated>2012-09-19T15:49:31-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Add DateTime assertion tests and correct DateTime assertions
 * Fix metadata generation for routine attributes
@@ -163,6 +196,7 @@ Fixes:
         </author>
         <updated>2012-08-09T21:34:24-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Only wrap general errors for procs that we fetch the results on
 * Fix colorize to make it handle commandline arguments in a standard way--
@@ -182,6 +216,7 @@ Fixes:
         </author>
         <updated>2012-07-30T16:29:29-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Fully automate the release process
 * Move the tokenizer unit test into the unit tests directory
@@ -205,6 +240,7 @@ Fixes:
         </author>
         <updated>2012-05-17T19:49:27-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Add aliases for the old dialect names and warnings if you use them
 * Fix method signature mismatch and bogus defaults
@@ -220,6 +256,7 @@ Fixes:
         </author>
         <updated>2012-05-08T18:53:42-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Call CREATE TABLE correctly for SQLMETA
 * Full support for 5.2-5.4 testing via Travis-CI
@@ -244,6 +281,7 @@ Fixes:
         </author>
         <updated>2012-04-30T21:43:09-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Rework our package build process to be more palatable
 * Rename schema classes to be Modyllic_Schema_*
@@ -268,6 +306,7 @@ Fixes:
         </author>
         <updated>2012-04-13T20:55:07-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Add IF EXISTS to all of our DROPs
 * Fix bugs in --only support
@@ -283,6 +322,7 @@ Fixes:
         </author>
         <updated>2012-03-30T20:29:41-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Stop Modyllic_Parser::partial from having a return value
 * Complain if no toschema is provided to sqldiff
@@ -306,6 +346,7 @@ Fixes:
         </author>
         <updated>2012-03-19T16:47:44-04:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Add IF EXISTS to events. Fixes #93.
 * Stop using 5.3 Exception form and just rethrow non-general errors
@@ -324,6 +365,7 @@ Fixes:
         </author>
         <updated>2012-03-06T21:48:13-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Packaging updates to use our own channel and document releases
 * Class rename bug in SQL generators
@@ -339,6 +381,7 @@ Fixes:
         </author>
         <updated>2012-03-06T17:05:41-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Packaging updates to use our own channel and document releases
 * Class rename bug in SQL generators
@@ -354,6 +397,7 @@ Fixes:
         </author>
         <updated>2012-02-07T21:17:25-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 * Packaging updates to use our own channel and document releases
 * Class rename bug in SQL generators
@@ -369,6 +413,7 @@ Fixes:
         </author>
         <updated>2012-02-02T19:26:14-05:00</updated>
         <content>
+            Modyllic, PHP SQL Parser and schema management tool
             
 ...
  
@@ -382,6 +427,7 @@ Fixes:
         </author>
         <updated>2013-05-20T18:33:42-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Add OLB/PDORetryTransaction.php to the build
  
@@ -395,6 +441,7 @@ Fixes:
         </author>
         <updated>2013-05-20T17:51:41-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Disconnect on rollback failures
  
@@ -408,6 +455,7 @@ Fixes:
         </author>
         <updated>2013-05-17T17:19:17-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Disconnect on rollback failures
  
@@ -421,6 +469,7 @@ Fixes:
         </author>
         <updated>2012-11-06T16:24:14-05:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Disconnect on rollback failures
  
@@ -434,6 +483,7 @@ Fixes:
         </author>
         <updated>2012-09-18T02:42:53-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Reverse the execute retry loop to work the same way as the other retry loops
  
@@ -447,6 +497,7 @@ Fixes:
         </author>
         <updated>2012-09-18T01:50:14-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Fix logging on execute retries
 * Add ability to sleep only after n retries
@@ -461,6 +512,7 @@ Fixes:
         </author>
         <updated>2012-09-04T14:35:47-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Stop logging error message for deadlocks-- they'll be logged by the retrier if need be.
  
@@ -474,6 +526,7 @@ Fixes:
         </author>
         <updated>2012-08-14T23:36:01-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Fix permissions.
  
@@ -487,6 +540,7 @@ Fixes:
         </author>
         <updated>2012-08-13T23:11:53-04:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Add support for a special kind of exceptions, any that implement the
   OLB_PDOCommitTransaction interface, that when thrown will not trigger a
@@ -503,6 +557,7 @@ Fixes:
         </author>
         <updated>2012-02-21T23:45:49-05:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 * Added RETRY_DEADLOCKS flag-- when it's true, we will retry deadlocked queries.
 * Converted Exception to PDOException
@@ -524,6 +579,7 @@ Fixes:
         </author>
         <updated>2012-02-02T20:05:37-05:00</updated>
         <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
 Initial release.
  
@@ -537,6 +593,11 @@ Initial release.
         </author>
         <updated>2012-04-30T18:04:10-04:00</updated>
         <content>
+            It will only include files that are part of the git index-- that is, files
+in the current branch plus files staged for commit.  It simply uses 
+`git ls-files` to get a list of files to package.  If you just want
+files excluded that are in .gitignore or .git/info/exclude, see 
+https://github.com/armen/PEAR_PackageFileManager_Git
             
 Initial release.
  

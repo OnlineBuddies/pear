@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2013-06-24T16:49:20-04:00</updated>
+    <updated>2013-09-19T11:31:16-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -490,6 +490,20 @@ Fixes:
             Modyllic, PHP SQL Parser and schema management tool
             
 ...
+ 
+        </content>
+    </entry>    <entry>
+        <title>OLB_PDO 0.2.10 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.10.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.10.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2013-09-19T15:28:12-04:00</updated>
+        <content>
+            A simple PDO wrapper that adds singletons, retries and improved transaction support.
+            
+* Expose the deadlock and retryable exception detection to client code.
  
         </content>
     </entry>    <entry>

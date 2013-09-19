@@ -237,6 +237,10 @@
 
         <a>
             <r>
+                <v>0.2.10</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>0.2.9</v>
                 <s>beta</s>
             </r>
@@ -283,6 +287,10 @@
 
         </a>
 
+        <deps>
+            <v>0.2.10</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
         <deps>
             <v>0.2.9</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>

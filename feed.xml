@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2013-09-19T11:31:16-04:00</updated>
+    <updated>2013-10-18T14:51:50-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,28 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.19 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.19.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.19.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2013-10-18T18:51:48-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Fix false event diffs Events are tricky to handle right, for two reasons:
+* Whenever possible, produce error messages rather than exceptions
+* Add schema validation as a feature
+* Work around MySQL constraint limitations, separating drops from adds.
+* Fix handling of marking a column as a primary key-- columns are then marked not null by implication
+* Fix false view diffs MySQL compresses the spaces between the AS keyword and the select statement, so we need to parse at least that far.
+* Stop rewriting code body blocks when we didn't need to
+* Fix guard against events not existing
+* Fix #249: Guard against events not existing in MySQL 5.0
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.18 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.18.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.18.tgz</id>

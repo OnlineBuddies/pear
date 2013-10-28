@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2013-10-22T15:26:10-04:00</updated>
+    <updated>2013-10-28T17:09:34-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,21 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.21 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.21.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.21.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2013-10-28T21:09:32-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Match the function signature up with Modyllic_Schema_Index_Foreign::validate
+* Drop constraints, THEN indexes, THEN columns
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.20 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.20.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.20.tgz</id>

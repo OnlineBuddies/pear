@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2014-02-27T18:33:36-05:00</updated>
+    <updated>2014-03-04T15:17:42-05:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,20 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.29 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.29.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.29.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2014-03-04T20:17:39-05:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Handle errors coming when fetching from a non-result-returning query. Thanks, PDO. (Aria Stewart)
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.28 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.28.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.28.tgz</id>

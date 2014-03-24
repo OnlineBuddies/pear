@@ -1,6 +1,32 @@
 {
     "pear-OnlineBuddies\/Modyllic": {
         "versions": {
+            "0.2.30": {
+                "name": "pear-OnlineBuddies\/Modyllic",
+                "description": "Schema management and DDL diff",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/onlinebuddies.github.com\/pear\/get\/Modyllic-0.2.30.tgz"
+                },
+                "version": "0.2.30",
+                "time": "2014-03-24T20:36:32-04:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-pear\/Console_CommandLine": ">=1.1.3"
+                },
+                "authors": [
+                    {
+                        "name": "Online Buddies, Inc",
+                        "email": "development@online-buddies.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Modyllic"
+                    }
+                }
+            },
             "0.2.29": {
                 "name": "pear-OnlineBuddies\/Modyllic",
                 "description": "Schema management and DDL diff",

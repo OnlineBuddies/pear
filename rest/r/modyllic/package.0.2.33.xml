@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Modyllic</name>
+ <channel>onlinebuddies.github.com/pear</channel>
+ <summary>Schema management and DDL diff</summary>
+ <description>Modyllic, PHP SQL Parser and schema management tool</description>
+ <lead>
+  <name>Online Buddies, Inc</name>
+  <user>olb</user>
+  <email>development@online-buddies.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2014-04-09</date>
+ <time>21:14:05</time>
+ <version>
+  <release>0.2.33</release>
+  <api>0.2.33</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+* Fix bug introcued in last version where changing table options resulted in crash
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="58e76773ece237b14960ed5be7277d07" name="doc/Changes.md" role="doc" />
+   <file baseinstalldir="/" md5sum="33458881fd50ed6ca10bff844ac7d3dc" name="doc/Dialect-Refactor.md" role="doc" />
+   <file baseinstalldir="/" md5sum="56a8e6c5959f8eebc335c8bec862526e" name="doc/Dialect.md" role="doc" />
+   <file baseinstalldir="/" md5sum="aa93c4ad34b2e4acdee95d9ee75d882e" name="doc/Extensions.md" role="doc" />
+   <file baseinstalldir="/" md5sum="8205b82e266c67989b00abfce1bed23f" name="doc/Hacking.md" role="doc" />
+   <file baseinstalldir="/" md5sum="54c63e4ae0fb1cf951105a5c71dde31c" name="doc/Home.md" role="doc" />
+   <file baseinstalldir="/" md5sum="3dbe2cedb27c9f6c5af2d6f6ab42704a" name="doc/Limitations.md" role="doc" />
+   <file baseinstalldir="/" md5sum="28cbb6d5eafee1e6fd82347bac4f1ee1" name="doc/modyllic-colorize.md" role="doc" />
+   <file baseinstalldir="/" md5sum="77f533759a5a95c41d5f3808df0bcb15" name="doc/modyllic-diff.md" role="doc" />
+   <file baseinstalldir="/" md5sum="f4ae225b2913862a346fdeb4028afd90" name="doc/modyllic-drop.md" role="doc" />
+   <file baseinstalldir="/" md5sum="73f5212cefbe2360db3909fe6ccd993f" name="doc/modyllic-dump.md" role="doc" />
+   <file baseinstalldir="/" md5sum="c4375c0d210070e9969eeb9ed0a8a99f" name="doc/modyllic-migrate.md" role="doc" />
+   <file baseinstalldir="/" md5sum="e12a762729d15219e689ceef0c3eb940" name="doc/modyllic-preparse.md" role="doc" />
+   <file baseinstalldir="/" md5sum="8470a85d991f87633ab4721c3d8899cb" name="doc/modyllic-procstophp.md" role="doc" />
+   <file baseinstalldir="/" md5sum="ddba4e1d6206cf3f5e8b00a674ed303f" name="doc/Parser-Refactor.md" role="doc" />
+   <file baseinstalldir="/" md5sum="f6bd9038e2cf4baf17de30c372c99855" name="doc/Prior-Art.md" role="doc" />
+   <file baseinstalldir="/" md5sum="2a92b570d6e7849b713e00f9660c0b7f" name="doc/Publishing.md" role="doc" />
+   <file baseinstalldir="/" md5sum="8026af59bddc5f1a3b27e0de006d62c0" name="doc/Schema-Change-Events.md" role="doc" />
+   <file baseinstalldir="/" md5sum="e6a552709b5bc8e68f599e0d69c1915f" name="doc/schemas.md" role="doc" />
+   <file baseinstalldir="/" md5sum="efe9ff1de53c6b34e73feb314abe8c4d" name="Modyllic/Changeset/Table/Options.php" role="php" />
+   <file baseinstalldir="/" md5sum="b2e4b5fd9b7f918c86a6d62fddfb3115" name="Modyllic/Changeset/Event.php" role="php" />
+   <file baseinstalldir="/" md5sum="f6c89f5d571dd555511caa688271ed1e" name="Modyllic/Changeset/Schema.php" role="php" />
+   <file baseinstalldir="/" md5sum="bd17d7db5b2e4e86d9d87439f7fd4e8f" name="Modyllic/Changeset/Table.php" role="php" />
+   <file baseinstalldir="/" md5sum="e0da191d9c0346ff7eaca6a76edc97ca" name="Modyllic/Console/CommandLine/ActionDialect.php" role="php" />
+   <file baseinstalldir="/" md5sum="2dadfd7b81bdcf8c31b393b687160d3d" name="Modyllic/Expression/Operator/Binary.php" role="php" />
+   <file baseinstalldir="/" md5sum="b3f2c58dae0757b71cd550e4d63c4218" name="Modyllic/Expression/Operator/Unary.php" role="php" />
+   <file baseinstalldir="/" md5sum="208643f656f80dff728a85ffb95d4cb9" name="Modyllic/Expression/Function.php" role="php" />
+   <file baseinstalldir="/" md5sum="9a191d990e7926acdf3ca1887e9394d5" name="Modyllic/Expression/Value.php" role="php" />
+   <file baseinstalldir="/" md5sum="8404ddf3828a72fde76fbba68131ad40" name="Modyllic/Generator/AssertMySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="02473925725bc8599d0a16eeb978bb68" name="Modyllic/Generator/ModyllicSQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1902126f0054d65afb57d158ab2f6c5" name="Modyllic/Generator/MySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="54909a0b1bf1c6e5863cec26eb144ff8" name="Modyllic/Generator/PHP.php" role="php" />
+   <file baseinstalldir="/" md5sum="3b733757045be079668559d210b3ffc0" name="Modyllic/Generator/SeparateAlterAssertMySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="6104e7a578d23d744064a7ee3aaae291" name="Modyllic/Generator/SeparateAlterMySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="f8133abeb06cafaf3b7ee6e2435b7fac" name="Modyllic/Generator/StrippedMySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4b7cb96804c435850fc63d2fbc23d81" name="Modyllic/Loader/DB/MySQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc6421e306566d1f822d258867dd940f" name="Modyllic/Loader/DB.php" role="php" />
+   <file baseinstalldir="/" md5sum="52d39ce187954116d1503f2f457d2e5c" name="Modyllic/Loader/Dir.php" role="php" />
+   <file baseinstalldir="/" md5sum="524aabb2906709221b513bb498d5b220" name="Modyllic/Loader/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="2127a3e1c62722cb78db80b0a2a0c2f7" name="Modyllic/Loader/File.php" role="php" />
+   <file baseinstalldir="/" md5sum="1c1be5036ae137e85c1b90e339c7dab5" name="Modyllic/Schema/Event/Schedule.php" role="php" />
+   <file baseinstalldir="/" md5sum="e99f6c96a4d6b0942602c7c390d767bf" name="Modyllic/Schema/Index/Foreign.php" role="php" />
+   <file baseinstalldir="/" md5sum="32b4f28d5a0448b005f614408b4345a2" name="Modyllic/Schema/Table/Row.php" role="php" />
+   <file baseinstalldir="/" md5sum="10f718ee8bf1aa104d9349e414660372" name="Modyllic/Schema/Arg.php" role="php" />
+   <file baseinstalldir="/" md5sum="e6849d50024222f0e9bae77400009b50" name="Modyllic/Schema/CodeBody.php" role="php" />
+   <file baseinstalldir="/" md5sum="d2f35206863134723d4bd050be47e371" name="Modyllic/Schema/Column.php" role="php" />
+   <file baseinstalldir="/" md5sum="9e9bd0fd17142e1f8e2c911b78d89623" name="Modyllic/Schema/Event.php" role="php" />
+   <file baseinstalldir="/" md5sum="bb894b0a4b5f898c9f078d03c7467529" name="Modyllic/Schema/Func.php" role="php" />
+   <file baseinstalldir="/" md5sum="310c30b97add1ac5b97f9257bbe42a3c" name="Modyllic/Schema/Index.php" role="php" />
+   <file baseinstalldir="/" md5sum="a5ee2177af3cd159f2c8af989d30cf05" name="Modyllic/Schema/MetaTable.php" role="php" />
+   <file baseinstalldir="/" md5sum="a0e2985f4e7330550ba6ff95798edddc" name="Modyllic/Schema/Proc.php" role="php" />
+   <file baseinstalldir="/" md5sum="d6a732aea3f32a7bfa880ce2fcf05920" name="Modyllic/Schema/Routine.php" role="php" />
+   <file baseinstalldir="/" md5sum="47a3217633936e947747875af2e041c1" name="Modyllic/Schema/Table.php" role="php" />
+   <file baseinstalldir="/" md5sum="99b92190f4e033a68d53510b231047a1" name="Modyllic/Schema/Trigger.php" role="php" />
+   <file baseinstalldir="/" md5sum="177fc010ae0245709930e7e8ea4e85f2" name="Modyllic/Schema/View.php" role="php" />
+   <file baseinstalldir="/" md5sum="7c9f5861cf5c8a56156916efaedecc8b" name="Modyllic/Token/Error/Delimiter.php" role="php" />
+   <file baseinstalldir="/" md5sum="013df208c58fcf26658a2e89577c26f7" name="Modyllic/Token/Bareword.php" role="php" />
+   <file baseinstalldir="/" md5sum="fcba8defed105105307d8eadc2edacde" name="Modyllic/Token/Comment.php" role="php" />
+   <file baseinstalldir="/" md5sum="711bd770c84f0fab2f99ad4d2286636c" name="Modyllic/Token/Delim.php" role="php" />
+   <file baseinstalldir="/" md5sum="2d0eb45c81e9608f0daa8e6d945552a9" name="Modyllic/Token/EOC.php" role="php" />
+   <file baseinstalldir="/" md5sum="eeace06ea40b7db362e11c076705048d" name="Modyllic/Token/EOF.php" role="php" />
+   <file baseinstalldir="/" md5sum="74d636a38db0ad16fc7ff786ff722fe7" name="Modyllic/Token/Error.php" role="php" />
+   <file baseinstalldir="/" md5sum="a9d87effb8002190b2c9012c02392232" name="Modyllic/Token/Except.php" role="php" />
+   <file baseinstalldir="/" md5sum="b82294c6ca91fdb6837e73fd4d76790f" name="Modyllic/Token/Ident.php" role="php" />
+   <file baseinstalldir="/" md5sum="a67f1034947dbf28665d9b64e591ba93" name="Modyllic/Token/List.php" role="php" />
+   <file baseinstalldir="/" md5sum="cad91faf405264109f8947ecf4202ff2" name="Modyllic/Token/NewDelim.php" role="php" />
+   <file baseinstalldir="/" md5sum="06675cf4ca1d58abb47ac8f563866faf" name="Modyllic/Token/Num.php" role="php" />
+   <file baseinstalldir="/" md5sum="3d00d291299791513b69cd9b09d2e0bb" name="Modyllic/Token/PHPString.php" role="php" />
+   <file baseinstalldir="/" md5sum="1b845c6a492c096327ac360ac15b492a" name="Modyllic/Token/QuotedIdent.php" role="php" />
+   <file baseinstalldir="/" md5sum="8c71cb60b1a4e76fbdc532d81ca4be03" name="Modyllic/Token/Reserved.php" role="php" />
+   <file baseinstalldir="/" md5sum="10501ab828bf2caaed4f01054766aa00" name="Modyllic/Token/SOC.php" role="php" />
+   <file baseinstalldir="/" md5sum="98f92755861c27165f42c66e370604d6" name="Modyllic/Token/String.php" role="php" />
+   <file baseinstalldir="/" md5sum="c3992e5d4ca5016e5666fbbc1a8c18f2" name="Modyllic/Token/Symbol.php" role="php" />
+   <file baseinstalldir="/" md5sum="f1144b72bc2453c0f9d01f61d6ff614c" name="Modyllic/Token/Whitespace.php" role="php" />
+   <file baseinstalldir="/" md5sum="07eeac17e78a0e2a3fb006c7a398c647" name="Modyllic/Type/BigInt.php" role="php" />
+   <file baseinstalldir="/" md5sum="49cecd93f4460153f6d9fae23f3822e3" name="Modyllic/Type/Binary.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2e4f5f470131899df8d9d0b47a3d629" name="Modyllic/Type/Bit.php" role="php" />
+   <file baseinstalldir="/" md5sum="6abdcb8c508239433f808a284d0fe5f5" name="Modyllic/Type/Blob.php" role="php" />
+   <file baseinstalldir="/" md5sum="da59c630590873263ff209d59ea1b8d8" name="Modyllic/Type/Boolean.php" role="php" />
+   <file baseinstalldir="/" md5sum="08d1244f961c3ccd10e9f02dfd8977e3" name="Modyllic/Type/Char.php" role="php" />
+   <file baseinstalldir="/" md5sum="71727e6fdb648bc716de00da7853fbda" name="Modyllic/Type/Compound.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb950de246691136272efd0eea39a444" name="Modyllic/Type/Date.php" role="php" />
+   <file baseinstalldir="/" md5sum="16b51e2157b578ca40070f4f219cdbc5" name="Modyllic/Type/Datetime.php" role="php" />
+   <file baseinstalldir="/" md5sum="a8f2ea0aa58e3baaed8afea865eb7c71" name="Modyllic/Type/Decimal.php" role="php" />
+   <file baseinstalldir="/" md5sum="871b8dd9633af3c1a2666bea85901868" name="Modyllic/Type/DoubleFloat.php" role="php" />
+   <file baseinstalldir="/" md5sum="89404af050b320d817aee90ec1d04642" name="Modyllic/Type/Enum.php" role="php" />
+   <file baseinstalldir="/" md5sum="909f3d045d56aad8347ecd6bf4ebe28c" name="Modyllic/Type/Float.php" role="php" />
+   <file baseinstalldir="/" md5sum="78f530436c87f3d8ccfbde72cfb44d6b" name="Modyllic/Type/Geometry.php" role="php" />
+   <file baseinstalldir="/" md5sum="d3a1044065e4ed5d0ec03f639510ad0b" name="Modyllic/Type/GeometryCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="29c6dde1f3ea9320534a359690a3e5db" name="Modyllic/Type/Integer.php" role="php" />
+   <file baseinstalldir="/" md5sum="09c10e12de591f3a30401912bc98a6b0" name="Modyllic/Type/LineString.php" role="php" />
+   <file baseinstalldir="/" md5sum="c766e31d40ff5c5ea4177a8544a86f88" name="Modyllic/Type/MediumInt.php" role="php" />
+   <file baseinstalldir="/" md5sum="78f530436c87f3d8ccfbde72cfb44d6b" name="Modyllic/Type/MultiLineString.php" role="php" />
+   <file baseinstalldir="/" md5sum="08b68d99bf2323312317111932455e05" name="Modyllic/Type/MultiPoint.php" role="php" />
+   <file baseinstalldir="/" md5sum="38d621aea74077dae8f88cba37a3c93d" name="Modyllic/Type/MultiPolygon.php" role="php" />
+   <file baseinstalldir="/" md5sum="f7b17103145e3854c254830fd8e07e43" name="Modyllic/Type/Numeric.php" role="php" />
+   <file baseinstalldir="/" md5sum="85899c8627154668130b2ecd1906f7b8" name="Modyllic/Type/Point.php" role="php" />
+   <file baseinstalldir="/" md5sum="6bad2ceee97e6a17242bedae99226806" name="Modyllic/Type/Polygon.php" role="php" />
+   <file baseinstalldir="/" md5sum="be3e5bde44e6bb1038818cd92f64ac3e" name="Modyllic/Type/Serial.php" role="php" />
+   <file baseinstalldir="/" md5sum="01e421cf613ca2dd54e1392d59be0761" name="Modyllic/Type/Set.php" role="php" />
+   <file baseinstalldir="/" md5sum="284e6e8ab569afbea218d1ec92a9e72f" name="Modyllic/Type/SmallInt.php" role="php" />
+   <file baseinstalldir="/" md5sum="6cbb310a379d62c5bf5ebf93a57a1681" name="Modyllic/Type/String.php" role="php" />
+   <file baseinstalldir="/" md5sum="49049cc3bc989af3e5aa4fee1c4d99af" name="Modyllic/Type/Text.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf8f589a861628a7ad1b245609e5ad27" name="Modyllic/Type/Time.php" role="php" />
+   <file baseinstalldir="/" md5sum="2af251998709776378cea4c005cfd38c" name="Modyllic/Type/Timestamp.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a954d521ccbde9cf22870c734eb51e4" name="Modyllic/Type/TinyInt.php" role="php" />
+   <file baseinstalldir="/" md5sum="8f384ba72f563130104037f206d909d2" name="Modyllic/Type/VarBinary.php" role="php" />
+   <file baseinstalldir="/" md5sum="08fe47f7355153cb2d6ce761a88f6890" name="Modyllic/Type/VarChar.php" role="php" />
+   <file baseinstalldir="/" md5sum="d99c7df73a36bd3e4b0cd5186dbb525b" name="Modyllic/Type/VarString.php" role="php" />
+   <file baseinstalldir="/" md5sum="214d003b16a420ad851089ff81187845" name="Modyllic/Type/Year.php" role="php" />
+   <file baseinstalldir="/" md5sum="8ad3458fdba09dcde207e3a08bfd9bd1" name="Modyllic/AutoLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9f3b3965c21a6285f480d069aacb7ea" name="Modyllic/Changeset.php" role="php" />
+   <file baseinstalldir="/" md5sum="ae3af42925d102b0f4f9f4dd7f00a1af" name="Modyllic/CommandLine.php" role="php">
+    <tasks:replace from="@VERSION@" to="version" type="package-info" />
+    <tasks:replace from="@STATE@" to="state" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d456fcc8640adbf8fdd67e3a60cf6765" name="Modyllic/Diff.php" role="php" />
+   <file baseinstalldir="/" md5sum="c1b1fae6c67f79a14dbbad9a8e25eedd" name="Modyllic/Diffable.php" role="php" />
+   <file baseinstalldir="/" md5sum="015df8ebd1e59b1c333ee925d086380e" name="Modyllic/ErrorHandler.php" role="php" />
+   <file baseinstalldir="/" md5sum="b96f96d422115d373a707879d5183983" name="Modyllic/Evaluate.php" role="php" />
+   <file baseinstalldir="/" md5sum="a192dba01099c4846fec2470396f78e9" name="Modyllic/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="7becd1951158ae9a457e8a15f4d4d594" name="Modyllic/Expression.php" role="php" />
+   <file baseinstalldir="/" md5sum="5d14afa1e5fa47ea2a271a5739f38f9d" name="Modyllic/Generator.php" role="php" />
+   <file baseinstalldir="/" md5sum="45d0a1c8741afaa2ad4b1b3ff095c07b" name="Modyllic/Loader.php" role="php" />
+   <file baseinstalldir="/" md5sum="04482322a504a2d31f464b8245d804da" name="Modyllic/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="33553bff51c929269f59f519b44d292d" name="Modyllic/Schema.php" role="php" />
+   <file baseinstalldir="/" md5sum="be25eb21e1444912ef3cddd578b5ebb1" name="Modyllic/SQL.php" role="php" />
+   <file baseinstalldir="/" md5sum="70c03251687f0f7a558b86e10d8824b4" name="Modyllic/Status.php" role="php" />
+   <file baseinstalldir="/" md5sum="5af9a3f4637f0ee7eb72cccf2ac5eb5a" name="Modyllic/Token.php" role="php" />
+   <file baseinstalldir="/" md5sum="8358bdd71bea79e7cd0512269520f2ec" name="Modyllic/Tokenizer.php" role="php" />
+   <file baseinstalldir="/" md5sum="18d87db077eab4318fb284b1f45d3e19" name="Modyllic/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="d287f4a911453a3eb62660e1c8f3a810" name="scripts/modyllic" role="script">
+    <tasks:replace from="@VERSION@" to="version" type="package-info" />
+    <tasks:replace from="@STATE@" to="state" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="edd6389c8230ce24c99fe99ac0702e7a" name="scripts/modyllic-apply" role="script" />
+   <file baseinstalldir="/" md5sum="3f399dc85d1090e3f94ad4d17288682c" name="scripts/modyllic-colorize" role="script" />
+   <file baseinstalldir="/" md5sum="b896996007978d11747ba3e054608ba1" name="scripts/modyllic-diff" role="script" />
+   <file baseinstalldir="/" md5sum="b3d8cc0c8f206110853d3e592cf09092" name="scripts/modyllic-drop" role="script" />
+   <file baseinstalldir="/" md5sum="409918293114befbf33908553cf3fd85" name="scripts/modyllic-dump" role="script" />
+   <file baseinstalldir="/" md5sum="db141aeb82026ba4a0be37e640c7b69a" name="scripts/modyllic-help" role="script" />
+   <file baseinstalldir="/" md5sum="6054933a63cdd57922705f8394d71298" name="scripts/modyllic-migrate" role="script" />
+   <file baseinstalldir="/" md5sum="b5a2c42a401487a4732639ce8c19cb75" name="scripts/modyllic-preparse" role="script" />
+   <file baseinstalldir="/" md5sum="cd3fb98c9ff0d48c81d0f8786d405f25" name="scripts/modyllic-procstophp" role="script" />
+   <file baseinstalldir="/" md5sum="6653559ac2d702323f3e531969013de2" name="scripts/modyllic-profile" role="script" />
+   <file baseinstalldir="/" md5sum="9eccd4dc907c8bc8fa8d6b4b982db92d" name="test/bugs/Create_Index_Len.t" role="test" />
+   <file baseinstalldir="/" md5sum="0c326adfcfca67be3bcca5b0193d7b2a" name="test/diff/DatabaseCharset.t" role="test" />
+   <file baseinstalldir="/" md5sum="4424e5dc12178f80ca43c49da65900f0" name="test/diff/NewTables.t" role="test" />
+   <file baseinstalldir="/" md5sum="10bb3f36a4b5e58412d9ea5cfa63208a" name="test/diff/Routines.t" role="test" />
+   <file baseinstalldir="/" md5sum="4187657444363966813aedef340287be" name="test/diff/Triggers.t" role="test" />
+   <file baseinstalldir="/" md5sum="fff5d2193901e57f48e1a2586471f564" name="test/generator/Assertions.t" role="test" />
+   <file baseinstalldir="/" md5sum="cbe7939084396211325123ffa32a2497" name="test/generator/Triggers.t" role="test" />
+   <file baseinstalldir="/" md5sum="edc50cc0708f43feee9de058fc1d52b7" name="test/parser/Drop.t" role="test" />
+   <file baseinstalldir="/" md5sum="c94935c3cac0fa11c80bdefa82aeed64" name="test/parser/Errors.t" role="test" />
+   <file baseinstalldir="/" md5sum="bfe28249b13a38372ac5b20261635f18" name="test/parser/Triggers.t" role="test" />
+   <file baseinstalldir="/" md5sum="ebafa6cf66f463b65d85af6103f974db" name="test/parser/Views.t" role="test" />
+   <file baseinstalldir="/" md5sum="fc390ac612c00a8c4c518e5af9d094e1" name="test/unit/AutoLoader/Example.php" role="test" />
+   <file baseinstalldir="/" md5sum="9e43ef75a012f96b5ae8bbe33ff898cc" name="test/unit/Type/DateTime.t" role="test" />
+   <file baseinstalldir="/" md5sum="c723267113ac17e9930addd2934e84a9" name="test/unit/AutoLoader.t" role="test" />
+   <file baseinstalldir="/" md5sum="c3d6519abbeeedda593e1920e9fc79cc" name="test/unit/SQL.t" role="test" />
+   <file baseinstalldir="/" md5sum="e26441a404ae57990bb15f2766298e6c" name="test/unit/Tokenizer.t" role="test" />
+   <file baseinstalldir="/" md5sum="11dd743c6389d4a6b62806858f42aa0b" name="test/General_Functional.t" role="test" />
+   <file baseinstalldir="/" md5sum="cda61b3dfac93c23d60064dfce29e8a1" name="test/Static_Tables.t" role="test" />
+   <file baseinstalldir="/" md5sum="6963bb61dd56219d923fdba22a153ed9" name="test/test_environment.php" role="test" />
+   <file baseinstalldir="/" md5sum="c7c3099a025cab2bdb6aeda45a2e477d" name="test/TODO.md" role="test" />
+   <file baseinstalldir="/" md5sum="fa18c234c9a5aa1358a39aa513760b0f" name="test/Types.t" role="test" />
+   <file baseinstalldir="/" md5sum="ea37e185007a94a8190d3722c71cf660" name="testlib/test/inc_false.php" role="test" />
+   <file baseinstalldir="/" md5sum="00885821201ecdc2baa869280ff4db33" name="testlib/test/inc_true.php" role="test" />
+   <file baseinstalldir="/" md5sum="9b731d53f7feed2dece09e549e2e84b9" name="testlib/test/test.php" role="test" />
+   <file baseinstalldir="/" md5sum="a254038363c3f09570b4eb3e62b87633" name="testlib/testmore.php" role="test" />
+   <file baseinstalldir="/" md5sum="09e0263a486c9622fe0e464fc0c44021" name=".travis.yml" role="data" />
+   <file baseinstalldir="/" md5sum="01a0fe474ffda77ac6b96f8bca6b6515" name="LICENSE.md" role="doc" />
+   <file baseinstalldir="/" md5sum="a6e7c11b092835f1f66a5d4c1229d469" name="modyllic-colorize.png" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="Changes.md" name="doc/Changes.md" />
+   <install as="Dialect-Refactor.md" name="doc/Dialect-Refactor.md" />
+   <install as="Dialect.md" name="doc/Dialect.md" />
+   <install as="Extensions.md" name="doc/Extensions.md" />
+   <install as="Hacking.md" name="doc/Hacking.md" />
+   <install as="Home.md" name="doc/Home.md" />
+   <install as="Limitations.md" name="doc/Limitations.md" />
+   <install as="modyllic-colorize.md" name="doc/modyllic-colorize.md" />
+   <install as="modyllic-diff.md" name="doc/modyllic-diff.md" />
+   <install as="modyllic-drop.md" name="doc/modyllic-drop.md" />
+   <install as="modyllic-dump.md" name="doc/modyllic-dump.md" />
+   <install as="modyllic-migrate.md" name="doc/modyllic-migrate.md" />
+   <install as="modyllic-preparse.md" name="doc/modyllic-preparse.md" />
+   <install as="modyllic-procstophp.md" name="doc/modyllic-procstophp.md" />
+   <install as="Parser-Refactor.md" name="doc/Parser-Refactor.md" />
+   <install as="Prior-Art.md" name="doc/Prior-Art.md" />
+   <install as="Publishing.md" name="doc/Publishing.md" />
+   <install as="Schema-Change-Events.md" name="doc/Schema-Change-Events.md" />
+   <install as="schemas.md" name="doc/schemas.md" />
+   <install as="modyllic" name="scripts/modyllic" />
+   <install as="modyllic-apply" name="scripts/modyllic-apply" />
+   <install as="modyllic-colorize" name="scripts/modyllic-colorize" />
+   <install as="modyllic-diff" name="scripts/modyllic-diff" />
+   <install as="modyllic-drop" name="scripts/modyllic-drop" />
+   <install as="modyllic-dump" name="scripts/modyllic-dump" />
+   <install as="modyllic-help" name="scripts/modyllic-help" />
+   <install as="modyllic-migrate" name="scripts/modyllic-migrate" />
+   <install as="modyllic-preparse" name="scripts/modyllic-preparse" />
+   <install as="modyllic-procstophp" name="scripts/modyllic-procstophp" />
+   <install as="modyllic-profile" name="scripts/modyllic-profile" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-01-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-01-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+No changelog for this version.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Packaging updates to use our own channel and document releases
+* Class rename bug in SQL generators
+* Loader fix required for static tables, spread across multiple files
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.3</release>
+    <api>0.1.3</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Remove unused method Modyllic_Loader::from_db
+* Correct DSN loading to allow equals signs in values.
+* URL decode DSN values prior to using them.
+* Change terminal detection to only run tput if it can plausibly work.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.4</release>
+    <api>0.1.4</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add a debug flag to aid in debugging parser errors
+* Remove verbose output from debugging
+* Fix innumerable problems with migrate since the commandline refactor
+* Allow colons or semicolons in dsns, to make command lines less painful
+* Fix bug where the database name wasn&apos;t being emitted in some circumstances
+* SQLMETA updates were bogus, changed to just delete and insert. 
+* The static property on tables wasn&apos;t being emitted correctly.
+* Fix bugs in primary key handling caused by support for key lengths
+* Fix bug in how dynamically named indexes were emitted. Now use the name for the purposes of diffs but don&apos;t emit it
+* Fix the file roles
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.5</release>
+    <api>0.1.5</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add IF EXISTS to events. Fixes #93.
+* Stop using 5.3 Exception form and just rethrow non-general errors
+* RETURNS COLUMN assertions should allow empty result sets (#56)
+* Implement support for extended inserts (#88)
+* Fix missing is_primary attribute on columns
+* Improve error messages for invalid delimiters (#82)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.6</release>
+    <api>0.1.6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Stop Modyllic_Parser::partial from having a return value
+* Complain if no toschema is provided to sqldiff
+* Fix a --progress divide by zero when the source file was empty
+* Fix bug where a DROP DATABASE would ignore any following CREATEs
+* Make the SQL generator able to only output specific kinds of data
+* Boolean types were being treated as exactly equivalent to TINYINT and this isn&apos;t actually the case
+* displayError should really be a static function
+* Fix migration --create option
+* Fix bugs around when SQLMETA is created
+* Add support for MySQL Triggers
+* Fix view changeset handling
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.7</release>
+    <api>0.1.7</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add IF EXISTS to all of our DROPs
+* Fix bugs in --only support
+* Fix bugs in tracking sqlmeta_exists
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-04-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Rework our package build process to be more palatable
+* Rename schema classes to be Modyllic_Schema_*
+* Move more documentation into the wiki and update the publishing document (Aria Stewart)
+* Rename SQL generator dialects to be more useful
+* Rename Modyllic_Commandline-&gt;Modyllic_CommandLine to match Console_CommandLine
+* Add support for --version to all of the commandline tools
+* Remove unused sqlmeta_exists from changeset support
+* Remove now unused schema level sqlmeta tracking
+* #103 Converting from static to non-static no longer results in deleted rows
+* Fix strict error-- array_shift must take a variable as an argument
+* #85 Recursive scan directories for .sql files
+* Fix #110 - In sqlcolorize, on exit reset colors rather then explicitly setting white
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-05-08</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Call CREATE TABLE correctly for SQLMETA
+* Full support for 5.2-5.4 testing via Travis-CI
+* Switch to using an auto loader
+  NOTE: This means that any commandline tools will need to be updated to
+  load the autoloader.
+* Lots of refactoring to support the autoloader
+* Strictness related cleanup:
+  * Declare our abstract classes
+  * Add private constructors to static-only classes
+* Add type hints to our methods (#140)
+* Fix #109, allow index comparisions able to be aware of column name aliases.
+* Fix #33-- binary types never emit charset data
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.2</release>
+    <api>0.2.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-05-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add aliases for the old dialect names and warnings if you use them
+* Fix method signature mismatches and bogus defaults
+* Correct type hints from bulk type hint change
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.3</release>
+    <api>0.2.3</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-07-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fully automate the release process
+* Move the tokenizer unit test into the unit tests directory
+* Fix formatting of routine_args_type
+* Fix formatting of proc_return_type and routine_args_type docs
+* Give modyllic a single commandline interface
+* Comments in tables can now attach to columns and the table
+* Make tokens stringify to their debug representation and take advantage
+* Fix normalization for dates and years the way we did for nums
+* Fix #172 Non-token numification always set the value to 0
+* Fix bug where data updates would get lost if a tables static status did not change
+* Add coverage tools, a bunch of new unit tests, organize tests better.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.4</release>
+    <api>0.2.4</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-08-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Only wrap general errors for procs that we fetch the results on
+* Fix colorize to make it handle commandline arguments in a standard way--
+  the move to a unified modyllic commandline had broken it.
+* Add an exception-&gt;error handler and made using the CommandLine class load
+  it and the autoloader
+* Fix case undefined indexes involving aliases (#186)
+* Make boolean (and serial) persistent metadata in MySQL
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.5</release>
+    <api>0.2.5</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add DateTime assertion tests and correct DateTime assertions
+* Fix metadata generation for routine attributes
+* Fix assertion on constant variable name
+* Improve integer assertions
+* A variety of release related fixes
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.6</release>
+    <api>0.2.6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix bug: We remove metadata with delete_meta not drop_meta
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.7</release>
+    <api>0.2.7</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add deprecation warnings for `migrate`, `sqlcolorize`, `sqldiff`, `sqldrop`,
+  `sqldump`, `sqlpreparse`, `sqlprofile`, `sqltophp`.  Use the `modyllic` command
+  from now on.
+* Removed previously deprecated dialect names
+* Fix handling of multibyte strings
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.8</release>
+    <api>0.2.8</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Add support for extending your PHP include path for Modyllic&apos;s commandline
+  tools with the MODYLLIC_LIB_PATH environment variable.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.9</release>
+    <api>0.2.9</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-10-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Changes:
+
+* Make the release fail if pirum or openssl can&apos;t actually be run 
+* Add geometric types 
+* Add more build requirements 
+* Refactor metadata into a normal static table 
+* Rename SQLMETA to MODYLLIC 
+* Switch to creating the SQLMETA table via a schema object rather then by hand 
+* Fix database creation during migration 
+* Set indexes associated with primary key columns as column defined, which saves us from having to have a special case is_primary check later on. 
+* Make it easy to override the fetch type 
+
+Fixes:
+
+* Fix #207: metatable generation during migrates 
+* Fix #191 -- Emit BIGINTs for SERIAL columns
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.10</release>
+    <api>0.2.10</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-11-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Changes:
+
+* Warn rather then crash if a database doesn&apos;t exist
+* Clear progress bars in verbose mode only
+* Stop magicing separate primary key delcarations into column-wise ones
+* Suppress warnings on 5.4 due to PEAR maintained modules
+
+Bug fixes:
+
+* Fix bug in determining differences
+* Fix migration from SQLMETA to MODYLLIC
+* Fix 5.2 compatibility issues
+* Fix &apos;HASH&apos; type reserved word
+* Fix #218- Cleans up metadata table handling.
+* Fix column returns on empty sets, for real (#56)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.11</release>
+    <api>0.2.11</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-11-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix warning in some 5.3/5.4 configurations
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.12</release>
+    <api>0.2.12</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-11-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+Bug fixes:
+
+* Fix version order in changelogs
+* Fix bug around sorting versions now that we&apos;re &gt; *.10.0
+* Fix difference detection bug
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.13</release>
+    <api>0.2.13</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-05-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Remove deprecated commandline scripts (Rebecca Turner)
+* Add new Modyllic command for applying previously generated diffs to a database (Rebecca Turner)
+* Support schema prefixed view names (Rebecca Turner)
+* Add support for views/events/triggers to the MySQL loader (Rebecca Turner)
+* Add support for the mysql ROW_FORMAT table option (Aria Stewart)
+* Fix PHP5.3ism (Rebecca Turner)
+* Substantially improve delimiter related error handling (Rebecca Turner)
+* Make syntax errors consume a single character as an error token (Rebecca Turner)
+* Improve colors used to highlight errors (Rebecca Turner)
+* Fix commandline summary (Rebecca Turner)
+* Improve the &apos;no MODYLLIC table&apos; situation.  Works with DBs now, but still not dumps that lack it. (Rebecca Turner)
+* Fix #192: Adding multiple columns resulted in invalid AFTER clauses (Rebecca Turner)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.14</release>
+    <api>0.2.14</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-05-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix Modyllic view diff generation -- was referencing a changeset class rather then expected schema object (Rebecca Turner)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.16</release>
+    <api>0.2.16</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-05-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Actually connect to the database during apply (Aria Stewart)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.17</release>
+    <api>0.2.17</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-06-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Support default lengths varying based on signedness (Rebecca Turner)
+* Merge &quot;modyllic patch&quot; and &quot;modyllic apply&quot; (Rebecca Turner)
+* Allow defaults to be functions/constants, eg, true/false (Rebecca Turner)
+* Add support for CREATE INDEX (Rebecca Turner)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.18</release>
+    <api>0.2.18</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-06-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Remove extra whitespace from view and event parsing (Rebecca Turner)
+* Make all db interactions use UTF8 with MySQL (Rebecca Turner)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.19</release>
+    <api>0.2.19</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-10-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix false event diffs Events are tricky to handle right, for two reasons:
+* Whenever possible, produce error messages rather than exceptions
+* Add schema validation as a feature
+* Work around MySQL constraint limitations, separating drops from adds.
+* Fix handling of marking a column as a primary key-- columns are then marked not null by implication
+* Fix false view diffs MySQL compresses the spaces between the AS keyword and the select statement, so we need to parse at least that far.
+* Stop rewriting code body blocks when we didn&apos;t need to
+* Fix guard against events not existing
+* Fix #249: Guard against events not existing in MySQL 5.0
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.20</release>
+    <api>0.2.20</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-10-22</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix emitting of altered events
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.21</release>
+    <api>0.2.21</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-11-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Make unknown metadata an error rather than an exception
+* Remove SQLMETA backwards compatibility
+* Allow enabling or disabling an event through ALTER EVENT
+* Upgrade substrs and matches to UTF-8
+* Support for SQL expressions in INSERT commands
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.22</release>
+    <api>0.2.22</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-11-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Make unknown metadata an error rather than an exception
+* Remove SQLMETA backwards compatibility
+* Allow enabling or disabling an event through ALTER EVENT
+* Upgrade substrs and matches to UTF-8
+* Support for SQL expressions in INSERT commands
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.23</release>
+    <api>0.2.23</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2014-01-06</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Static tables with null values will now compare correctly
+* Comparing normalized types will now always use the right type while normalizing
+* Add ability to issue alters individually for, eg, replicating 5.5-&gt;5.6
+* Make attempts to insert into tables that don&apos;t yet exist non fatal-- although the insert WILL fail
+* Add facility for determining non-reserved keywords for highlighting purposes
+* Only emit ROW_FORMAT when it differs from the default.
+* Stop emitting IF EXISTS in ModyllicSQL
+* Use exec instead of prepare/execute to bypass bind param checking
+* Add examples to readme
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.27</release>
+    <api>0.2.27</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2014-02-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fully iterate the result sets to un-cover any errors (Aria Stewart)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.28</release>
+    <api>0.2.28</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2014-02-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix problem where strings in expressions would be set to &apos;&apos; on 64bit PHP
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.30</release>
+    <api>0.2.30</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2014-03-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Correct documentation when referring to how to encode a username
+* Stop issuing trucates with MySQL as they&apos;re not safe with foreign_key_checks=0 and innodb and file_per_table
+* Generate routines before we generate tables given that tables can
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.32</release>
+    <api>0.2.32</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2014-04-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* For MySQL, drop and create all foreign key constraints on all modified tables
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.33</release>
+    <api>0.2.33</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2014-04-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+* Fix bug introcued in last version where changing table options resulted in crash
+   </notes>
+  </release>
+ </changelog>
+</package>

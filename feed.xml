@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2014-04-09T16:31:40-04:00</updated>
+    <updated>2014-04-09T17:14:10-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,20 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.33 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.33.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.33.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2014-04-09T21:14:05-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Fix bug introcued in last version where changing table options resulted in crash
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.32 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.32.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.32.tgz</id>

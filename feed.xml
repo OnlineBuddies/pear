@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2014-04-09T17:14:10-04:00</updated>
+    <updated>2014-04-14T17:20:15-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,21 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.34 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.34.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.34.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2014-04-14T21:20:04-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Fix bug that broke handling of truncated primary keys
+* Fix bug that stopped indexes with different truncations from registering as different
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.33 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.33.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.33.tgz</id>

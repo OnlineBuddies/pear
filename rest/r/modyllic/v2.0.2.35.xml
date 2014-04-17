@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.com/pear</c>
+    <v>0.2.35</v>
+    <a>0.2.35</a>
+    <mp>5.2.0</mp>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2014-04-17 21:25:18</da>
+    <n>
+* Defer creating foreign keys until as late as possible
+  This solves some issues with foreign key constraints and static tables
+* Fix modyllic-apply's eating of &quot;general errors&quot; when we try to fetch result sets
+ </n>
+    <f>203831</f>
+    <g>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.35</g>
+    <x xlink:href="package.0.2.35.xml"/>
+</r>

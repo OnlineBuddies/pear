@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2014-04-17T21:25:21+00:00</updated>
+    <updated>2014-04-18T12:48:42-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,13 +9,31 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.36 (beta)</title>
+        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.36.tgz" />
+        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.36.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2014-04-18T16:48:38-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Resume disabling foreign key checks until such time as we add PREPARE WITH syntax to constraints
+* Stop trying to emit PRIMARY KEY and UNIQUE as field attributes
+* If we're dropping a table, don't try to add/remove constraints from it
+* Move all index/constraint changes to after other table changes, including static data
+* If we're making a table static, truncate before we make any changes to it
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.35 (beta)</title>
         <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.35.tgz" />
         <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.35.tgz</id>
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-04-17T21:25:18+00:00</updated>
+        <updated>2014-04-17T21:25:18-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -31,7 +49,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-04-14T21:20:04+00:00</updated>
+        <updated>2014-04-14T21:20:04-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -46,7 +64,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-04-09T21:14:05+00:00</updated>
+        <updated>2014-04-09T21:14:05-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -60,7 +78,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-04-09T20:31:35+00:00</updated>
+        <updated>2014-04-09T20:31:35-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -74,7 +92,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-04-09T14:44:32+00:00</updated>
+        <updated>2014-04-09T14:44:32-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -88,7 +106,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-03-24T20:36:32+00:00</updated>
+        <updated>2014-03-24T20:36:32-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -104,7 +122,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-03-04T20:17:39+00:00</updated>
+        <updated>2014-03-04T20:17:39-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -118,7 +136,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-02-27T23:33:33+00:00</updated>
+        <updated>2014-02-27T23:33:33-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -132,7 +150,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-02-24T22:07:07+00:00</updated>
+        <updated>2014-02-24T22:07:07-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -146,7 +164,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-02-18T20:08:28+00:00</updated>
+        <updated>2014-02-18T20:08:28-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -160,7 +178,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-02-18T19:26:56+00:00</updated>
+        <updated>2014-02-18T19:26:56-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -176,7 +194,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-02-04T20:36:48+00:00</updated>
+        <updated>2014-02-04T20:36:48-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -197,7 +215,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2014-01-06T17:37:53+00:00</updated>
+        <updated>2014-01-06T17:37:53-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -219,7 +237,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-11-27T20:21:57+00:00</updated>
+        <updated>2013-11-27T20:21:57-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -237,7 +255,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-10-28T21:09:32+00:00</updated>
+        <updated>2013-10-28T21:09:32-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -252,7 +270,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-10-22T19:26:08+00:00</updated>
+        <updated>2013-10-22T19:26:08-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -266,7 +284,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-10-18T18:51:48+00:00</updated>
+        <updated>2013-10-18T18:51:48-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -288,7 +306,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-06-24T20:49:18+00:00</updated>
+        <updated>2013-06-24T20:49:18-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -303,7 +321,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-06-24T20:12:15+00:00</updated>
+        <updated>2013-06-24T20:12:15-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -320,7 +338,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-29T20:49:06+00:00</updated>
+        <updated>2013-05-29T20:49:06-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -334,7 +352,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-29T20:11:33+00:00</updated>
+        <updated>2013-05-29T20:11:33-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -348,7 +366,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-29T18:47:36+00:00</updated>
+        <updated>2013-05-29T18:47:36-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -362,7 +380,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-29T18:02:37+00:00</updated>
+        <updated>2013-05-29T18:02:37-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -387,7 +405,7 @@
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-11-19T23:44:52+00:00</updated>
+        <updated>2012-11-19T23:44:52-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -405,7 +423,7 @@ Bug fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-11-09T23:51:28+00:00</updated>
+        <updated>2012-11-09T23:51:28-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -419,7 +437,7 @@ Bug fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-11-09T23:38:56+00:00</updated>
+        <updated>2012-11-09T23:38:56-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -447,7 +465,7 @@ Bug fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-10-12T19:08:25+00:00</updated>
+        <updated>2012-10-12T19:08:25-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -476,7 +494,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-27T22:51:04+00:00</updated>
+        <updated>2012-09-27T22:51:04-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -491,7 +509,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-27T22:44:36+00:00</updated>
+        <updated>2012-09-27T22:44:36-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -509,7 +527,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-20T19:35:16+00:00</updated>
+        <updated>2012-09-20T19:35:16-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -523,7 +541,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-19T15:49:31+00:00</updated>
+        <updated>2012-09-19T15:49:31-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -541,7 +559,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-08-09T21:34:24+00:00</updated>
+        <updated>2012-08-09T21:34:24-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -561,7 +579,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-07-30T16:29:29+00:00</updated>
+        <updated>2012-07-30T16:29:29-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -585,7 +603,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-05-17T19:49:27+00:00</updated>
+        <updated>2012-05-17T19:49:27-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -601,7 +619,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-05-08T18:53:42+00:00</updated>
+        <updated>2012-05-08T18:53:42-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -626,7 +644,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-04-30T21:43:09+00:00</updated>
+        <updated>2012-04-30T21:43:09-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -651,7 +669,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-04-13T20:55:07+00:00</updated>
+        <updated>2012-04-13T20:55:07-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -667,7 +685,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-03-30T20:29:41+00:00</updated>
+        <updated>2012-03-30T20:29:41-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -691,7 +709,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-03-19T16:47:44+00:00</updated>
+        <updated>2012-03-19T16:47:44-04:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -710,7 +728,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-03-06T21:48:13+00:00</updated>
+        <updated>2012-03-06T21:48:13-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -726,7 +744,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-03-06T17:05:41+00:00</updated>
+        <updated>2012-03-06T17:05:41-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -742,7 +760,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-02-07T21:17:25+00:00</updated>
+        <updated>2012-02-07T21:17:25-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -758,7 +776,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-02-02T19:26:14+00:00</updated>
+        <updated>2012-02-02T19:26:14-05:00</updated>
         <content>
             Modyllic, PHP SQL Parser and schema management tool
             
@@ -772,7 +790,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-09-19T15:28:12+00:00</updated>
+        <updated>2013-09-19T15:28:12-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -786,7 +804,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-20T18:33:42+00:00</updated>
+        <updated>2013-05-20T18:33:42-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -800,7 +818,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-20T17:51:41+00:00</updated>
+        <updated>2013-05-20T17:51:41-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -814,7 +832,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2013-05-17T17:19:17+00:00</updated>
+        <updated>2013-05-17T17:19:17-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -828,7 +846,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-11-06T16:24:14+00:00</updated>
+        <updated>2012-11-06T16:24:14-05:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -842,7 +860,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-18T02:42:53+00:00</updated>
+        <updated>2012-09-18T02:42:53-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -856,7 +874,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-18T01:50:14+00:00</updated>
+        <updated>2012-09-18T01:50:14-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -871,7 +889,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-09-04T14:35:47+00:00</updated>
+        <updated>2012-09-04T14:35:47-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -885,7 +903,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-08-14T23:36:01+00:00</updated>
+        <updated>2012-08-14T23:36:01-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -899,7 +917,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-08-13T23:11:53+00:00</updated>
+        <updated>2012-08-13T23:11:53-04:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -916,7 +934,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-02-21T23:45:49+00:00</updated>
+        <updated>2012-02-21T23:45:49-05:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -938,7 +956,7 @@ Fixes:
         <author>
             <name>olb</name>
         </author>
-        <updated>2012-02-02T20:05:37+00:00</updated>
+        <updated>2012-02-02T20:05:37-05:00</updated>
         <content>
             A simple PDO wrapper that adds singletons, retries and improved transaction support.
             
@@ -952,7 +970,7 @@ Initial release.
         <author>
             <name>becca</name>
         </author>
-        <updated>2012-04-30T18:04:10+00:00</updated>
+        <updated>2012-04-30T18:04:10-04:00</updated>
         <content>
             It will only include files that are part of the git index-- that is, files
 in the current branch plus files staged for commit.  It simply uses 

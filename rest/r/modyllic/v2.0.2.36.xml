@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.com/pear</c>
+    <v>0.2.36</v>
+    <a>0.2.36</a>
+    <mp>5.2.0</mp>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2014-04-18 16:48:38</da>
+    <n>
+* Resume disabling foreign key checks until such time as we add PREPARE WITH syntax to constraints
+* Stop trying to emit PRIMARY KEY and UNIQUE as field attributes
+* If we're dropping a table, don't try to add/remove constraints from it
+* Move all index/constraint changes to after other table changes, including static data
+* If we're making a table static, truncate before we make any changes to it
+ </n>
+    <f>203884</f>
+    <g>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.36</g>
+    <x xlink:href="package.0.2.36.xml"/>
+</r>

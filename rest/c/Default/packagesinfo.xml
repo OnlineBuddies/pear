@@ -3,7 +3,7 @@
     <pi>
         <p>
             <n>Modyllic</n>
-            <c>onlinebuddies.github.com/pear</c>
+            <c>onlinebuddies.github.io/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>BSD Style</l>
             <s>Schema management and DDL diff</s>
@@ -371,7 +371,7 @@
     </pi>    <pi>
         <p>
             <n>OLB_PDO</n>
-            <c>onlinebuddies.github.com/pear</c>
+            <c>onlinebuddies.github.io/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>BSD Style</l>
             <s>Singletons, retries and transactions, oh my</s>
@@ -483,7 +483,7 @@
     </pi>    <pi>
         <p>
             <n>PEAR_PackageFileManager_Gitrepoonly</n>
-            <c>onlinebuddies.github.com/pear</c>
+            <c>onlinebuddies.github.io/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>BSD Style</l>
             <s>A Git repository-only list plugin generator for both

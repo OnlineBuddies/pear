@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://onlinebuddies.github.com/pear</id>
-    <updated>2014-04-18T12:48:42-04:00</updated>
+    <id>http://onlinebuddies.github.io/pear</id>
+    <updated>2014-05-05T18:12:16-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
-    <link href="http://onlinebuddies.github.com/pear/feed.xml" rel="self" />
+    <link href="http://onlinebuddies.github.io/pear/feed.xml" rel="self" />
     <author>
-        <name>http://onlinebuddies.github.com/pear</name>
+        <name>http://onlinebuddies.github.io/pear</name>
     </author>
 
     <entry>
         <title>Modyllic 0.2.36 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.36.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.36.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.36.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.36.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -28,8 +28,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.35 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.35.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.35.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.35.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.35.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -44,8 +44,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.34 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.34.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.34.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.34.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.34.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -59,8 +59,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.33 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.33.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.33.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.33.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.33.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -73,8 +73,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.32 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.32.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.32.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.32.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.32.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -87,8 +87,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.31 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.31.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.31.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.31.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.31.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -101,8 +101,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.30 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.30.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.30.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.30.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.30.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -117,8 +117,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.29 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.29.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.29.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.29.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.29.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -131,8 +131,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.28 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.28.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.28.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.28.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.28.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -145,8 +145,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.27 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.27.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.27.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.27.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.27.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -159,8 +159,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.26 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.26.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.26.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.26.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.26.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -173,8 +173,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.25 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.25.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.25.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.25.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.25.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -189,8 +189,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.24 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.24.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.24.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.24.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.24.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -210,8 +210,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.23 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.23.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.23.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.23.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.23.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -232,8 +232,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.22 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.22.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.22.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.22.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.22.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -250,8 +250,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.21 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.21.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.21.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.21.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.21.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -265,8 +265,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.20 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.20.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.20.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.20.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.20.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -279,8 +279,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.19 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.19.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.19.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.19.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.19.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -301,8 +301,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.18 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.18.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.18.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.18.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.18.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -316,8 +316,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.17 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.17.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.17.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.17.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.17.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -333,8 +333,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.16 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.16.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.16.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.16.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.16.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -347,8 +347,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.15 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.15.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.15.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.15.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.15.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -361,8 +361,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.14 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.14.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.14.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.14.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.14.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -375,8 +375,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.13 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.13.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.13.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.13.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.13.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -400,8 +400,8 @@
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.12 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.12.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.12.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.12.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.12.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -418,8 +418,8 @@ Bug fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.11 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.11.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.11.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.11.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.11.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -432,8 +432,8 @@ Bug fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.10 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.10.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.10.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.10.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.10.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -460,8 +460,8 @@ Bug fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.9 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.9.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.9.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.9.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.9.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -489,8 +489,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.8 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.8.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.8.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.8.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.8.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -504,8 +504,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.7 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.7.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.7.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.7.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.7.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -522,8 +522,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.6 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.6.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.6.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.6.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.6.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -536,8 +536,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.5 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.5.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.5.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.5.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.5.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -554,8 +554,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.4 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.4.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.4.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.4.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.4.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -574,8 +574,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.3 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.3.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.3.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.3.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.3.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -598,8 +598,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.2 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.2.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.2.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.2.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.2.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -614,8 +614,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.1 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.1.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.1.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.1.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.1.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -639,8 +639,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.2.0 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.2.0.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.0.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.0.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.0.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -664,8 +664,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.7 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.7.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.7.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.7.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.7.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -680,8 +680,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.6 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.6.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.6.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.6.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.6.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -704,8 +704,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.5 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.5.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.5.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.5.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.5.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -723,8 +723,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.4 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.4.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.4.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.4.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.4.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -739,8 +739,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.3 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.3.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.3.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.3.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.3.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -755,8 +755,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.2 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.2.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.2.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.2.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.2.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -771,8 +771,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>Modyllic 0.1.1 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/Modyllic-0.1.1.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/Modyllic-0.1.1.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.1.1.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.1.1.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -785,8 +785,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.10 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.10.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.10.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.10.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.10.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -799,8 +799,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.9 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.9.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.9.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.9.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.9.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -813,8 +813,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.8 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.8.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.8.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.8.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.8.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -827,8 +827,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.7 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.7.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.7.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.7.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.7.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -841,8 +841,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.6 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.6.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.6.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.6.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.6.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -855,8 +855,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.5 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.5.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.5.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.5.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.5.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -869,8 +869,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.4 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.4.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.4.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.4.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.4.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -884,8 +884,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.3 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.3.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.3.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.3.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.3.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -898,8 +898,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.2 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.2.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.2.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.2.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.2.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -912,8 +912,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.1 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.1.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.1.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.1.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.1.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -929,8 +929,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.2.0 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.0.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.2.0.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.0.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.2.0.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -951,8 +951,8 @@ Fixes:
         </content>
     </entry>    <entry>
         <title>OLB_PDO 0.1.0 (beta)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/OLB_PDO-0.1.0.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/OLB_PDO-0.1.0.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/OLB_PDO-0.1.0.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/OLB_PDO-0.1.0.tgz</id>
         <author>
             <name>olb</name>
         </author>
@@ -965,8 +965,8 @@ Initial release.
         </content>
     </entry>    <entry>
         <title>PEAR_PackageFileManager_Gitrepoonly 1.0.0 (stable)</title>
-        <link href="http://onlinebuddies.github.com/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz" />
-        <id>http://onlinebuddies.github.com/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz</id>
+        <link href="http://onlinebuddies.github.io/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0.tgz</id>
         <author>
             <name>becca</name>
         </author>

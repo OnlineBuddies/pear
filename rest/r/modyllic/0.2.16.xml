@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/modyllic">Modyllic</p>
-    <c>onlinebuddies.github.com/pear</c>
+    <c>onlinebuddies.github.io/pear</c>
     <v>0.2.16</v>
     <st>beta</st>
     <l>BSD Style</l>
@@ -12,7 +12,7 @@
     <n>
 * Actually connect to the database during apply (Aria Stewart)
  </n>
-    <f>96625</f>
-    <g>http://onlinebuddies.github.com/pear/get/Modyllic-0.2.16</g>
+    <f>8506</f>
+    <g>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.16</g>
     <x xlink:href="package.0.2.16.xml"/>
 </r>

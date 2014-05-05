@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/pear_packagefilemanager_gitrepoonly">PEAR_PackageFileManager_Gitrepoonly</p>
-    <c>onlinebuddies.github.com/pear</c>
+    <c>onlinebuddies.github.io/pear</c>
     <v>1.0.0</v>
     <st>stable</st>
     <l>BSD Style</l>
@@ -17,7 +17,7 @@ https://github.com/armen/PEAR_PackageFileManager_Git</d>
     <n>
 Initial release.
  </n>
-    <f>1828</f>
-    <g>http://onlinebuddies.github.com/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0</g>
+    <f>1933</f>
+    <g>http://onlinebuddies.github.io/pear/get/PEAR_PackageFileManager_Gitrepoonly-1.0.0</g>
     <x xlink:href="package.1.0.0.xml"/>
 </r>

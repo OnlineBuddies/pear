@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.io/pear</c>
+    <v>0.2.37</v>
+    <a>0.2.37</a>
+    <mp>5.2.0</mp>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2014-05-05 22:38:59</da>
+    <n>
+* Fix PEAR URL to match what Github has forced (github.com-&gt;github.io)
+* Stop emitting the foreign key dance on static data only changes
+* Support a full suite of DML as proc bodies (previously we only supported BEGIN and CALL)
+* Add experimental support for PREPARE WITH blocks that can be attached to any foreign key or unique constraint.
+  PREPARE WITH blocks will be executed prior to adding that new contstraint
+  and should modify the table such that the constraint will pass.
+ </n>
+    <f>205163</f>
+    <g>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.37</g>
+    <x xlink:href="package.0.2.37.xml"/>
+</r>

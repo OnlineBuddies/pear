@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.io/pear</id>
-    <updated>2014-05-05T18:12:16-04:00</updated>
+    <updated>2014-05-05T18:39:09-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,25 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.37 (beta)</title>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.37.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.37.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2014-05-05T22:38:59-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Fix PEAR URL to match what Github has forced (github.com-&gt;github.io)
+* Stop emitting the foreign key dance on static data only changes
+* Support a full suite of DML as proc bodies (previously we only supported BEGIN and CALL)
+* Add experimental support for PREPARE WITH blocks that can be attached to any foreign key or unique constraint.
+  PREPARE WITH blocks will be executed prior to adding that new contstraint
+  and should modify the table such that the constraint will pass.
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.36 (beta)</title>
         <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.36.tgz" />
         <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.36.tgz</id>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/modyllic">Modyllic</p>
+    <c>onlinebuddies.github.io/pear</c>
+    <v>0.2.38</v>
+    <a>0.2.38</a>
+    <mp>5.2.0</mp>
+    <st>beta</st>
+    <l>BSD Style</l>
+    <m>olb</m>
+    <s>Schema management and DDL diff</s>
+    <d>Modyllic, PHP SQL Parser and schema management tool</d>
+    <da>2014-05-08 22:47:34</da>
+    <n>
+* Fix bug in new PREPARE-WITH feature
+* Make modyllic-migrate able to handle mult-result responses as these
+  are now possible now that we call code from PREPARE-WITH blocks.
+ </n>
+    <f>205337</f>
+    <g>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.38</g>
+    <x xlink:href="package.0.2.38.xml"/>
+</r>

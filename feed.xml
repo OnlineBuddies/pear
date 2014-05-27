@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://onlinebuddies.github.io/pear</id>
-    <updated>2014-05-08T18:47:37-04:00</updated>
+    <updated>2014-05-27T18:33:54-04:00</updated>
     <title>Online Buddies' PEAR Channel Server Latest Releases</title>
     <link href="http://onlinebuddies.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,21 @@
     </author>
 
     <entry>
+        <title>Modyllic 0.2.39 (beta)</title>
+        <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.39.tgz" />
+        <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.39.tgz</id>
+        <author>
+            <name>olb</name>
+        </author>
+        <updated>2014-05-27T22:33:51-04:00</updated>
+        <content>
+            Modyllic, PHP SQL Parser and schema management tool
+            
+* Raise memory_limit for commandline use of Modyllic (Aria Stewart)
+* The schema columns representation changed a while ago but the foreign key add code wasn't updated to match (Rebecca Turner)
+ 
+        </content>
+    </entry>    <entry>
         <title>Modyllic 0.2.38 (beta)</title>
         <link href="http://onlinebuddies.github.io/pear/get/Modyllic-0.2.38.tgz" />
         <id>http://onlinebuddies.github.io/pear/get/Modyllic-0.2.38.tgz</id>
